@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "appName": "砚中雪",
-  "dataVersion":15,
+  "dataVersion":16,
   "categories": [
     {
       "id": "office",
@@ -90,7 +90,7 @@
   ],
   "appReleases": [],
   "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.1.1",
+  "appLatestVersion":"1.1.2",
   "appDownloadUrl":"https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk",
   "installedVersions": {},
   "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
