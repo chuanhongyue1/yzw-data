@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":25,
+    "dataVersion":26,
     "categories":  [
                        {
                            "id":  "office",
@@ -56,8 +56,8 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.1.7",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.7/app-arm64-v8a-release.apk",
+    "appLatestVersion":"1.1.8",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.8/app-arm64-v8a-release.apk",
     "installedVersions":  {
 
                           },
