@@ -1,62 +1,68 @@
 {
-  "schema": 1,
-  "appName": "砚中雪",
-  "dataVersion":24,
-  "categories": [
-    {
-      "id": "office",
-      "name": "办公",
-      "icon": "📝",
-      "order": 0
-    },
-    {
-      "id": "dev",
-      "name": "开发工具",
-      "icon": "🛠️",
-      "order": 1
-    },
-    {
-      "id": "design",
-      "name": "设计",
-      "icon": "🎨",
-      "order": 2
-    },
-    {
-      "id": "media",
-      "name": "影音",
-      "icon": "🎬",
-      "order": 3
-    },
-    {
-      "id": "system",
-      "name": "系统工具",
-      "icon": "⚙️",
-      "order": 4
-    },
-    {
-      "id": "game",
-      "name": "游戏",
-      "icon": "🎮",
-      "order": 5
-    }
-  ],
-  "software": [],
-  "announcements": [
-    {
-      "id": "welcome",
-      "title": "欢迎使用砚中雪",
-      "content": "欢迎使用该软件，祝您能找到您想要的软件，如果没有请点击设置中的反馈向开发者说明，开发者会去找找的（没有就算咯）",
-      "publishedAt": "2025-01-01",
-      "pinned": true
-    }
-  ],
-  "appReleases": [],
-  "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.1.6",
-  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.6/app-arm64-v8a-release.apk",
-  "installedVersions": {},
-  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json",
-  "appDownloadMirrors": [
-    "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
-  ]
+    "schema":  1,
+    "appName":  "砚中雪",
+    "dataVersion":25,
+    "categories":  [
+                       {
+                           "id":  "office",
+                           "name":  "办公",
+                           "icon":  "📝",
+                           "order":  0
+                       },
+                       {
+                           "id":  "dev",
+                           "name":  "开发工具",
+                           "icon":  "🛠️",
+                           "order":  1
+                       },
+                       {
+                           "id":  "design",
+                           "name":  "设计",
+                           "icon":  "🎨",
+                           "order":  2
+                       },
+                       {
+                           "id":  "media",
+                           "name":  "影音",
+                           "icon":  "🎬",
+                           "order":  3
+                       },
+                       {
+                           "id":  "system",
+                           "name":  "系统工具",
+                           "icon":  "⚙️",
+                           "order":  4
+                       },
+                       {
+                           "id":  "game",
+                           "name":  "游戏",
+                           "icon":  "🎮",
+                           "order":  5
+                       }
+                   ],
+    "software":  [
+
+                 ],
+    "announcements":  [
+                          {
+                              "id":  "welcome",
+                              "title":  "欢迎使用砚中雪",
+                              "content":  "欢迎使用该软件，祝您能找到您想要的软件，如果没有请点击设置中的反馈向开发者说明，开发者会去找找的（没有就算咯）",
+                              "publishedAt":  "2025-01-01",
+                              "pinned":  true
+                          }
+                      ],
+    "appReleases":  [
+
+                    ],
+    "feedbackEmail":  "chuanhongyue959@gmail.com",
+    "appLatestVersion":"1.1.7",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.7/app-arm64-v8a-release.apk",
+    "installedVersions":  {
+
+                          },
+    "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json",
+    "appDownloadMirrors":  [
+                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+                           ]
 }
