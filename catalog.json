@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "appName": "砚中雪",
-  "dataVersion":39,
+  "dataVersion":40,
   "categories": [
     {
       "id": "office",
@@ -204,8 +204,8 @@
   ],
   "appReleases": [],
   "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.1.17","appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 底部内容被压住/留白的问题彻底解决。\n  之前是「自己算一个导航栏高度，让内容让开这么多」——那个数字既要等于\n  导航栏真实高度、又要避开安全区、还要跟列表自己的留白对齐，三处各算各的，\n  结果不是压住内容就是留一大截空白（安全区还被算了两次）。\n  现在改成让 Scaffold 自己排版：背景铺在 Scaffold 外面负责满屏，\n  内容区由 Scaffold 自动排在导航栏之上。**一个手算常量都不需要了。**\n\n【调整】\n· 弹窗比背景深一档（10%），强调它在最上层；不再靠模糊或阴影硬拉层次。\n· 移除了「液态玻璃」实验特性（折射着色器、设置开关、相关代码与着色器文件）。\n  它在实机上效果不明显，却要付出每帧离屏渲染的代价。\n\n【清理】\n· 删除了 1.1.14 之前的全部历史发行版（GitHub 20 个、Gitee 8 个）。\n  软件安装包所在的 files 发行版保留。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
-  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.17/app-arm64-v8a-release.apk",
+  "appLatestVersion":"1.1.18","appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 首页最下面那张卡「划不上来」的问题。\n  之前每张推荐卡都是吸顶的，而吸顶卡不会被后面的卡挤出屏幕，只会永久\n  堆在顶部 —— 堆满之后后面的卡被顶到视口外面，永远够不着。实测滚到底\n  时最后一张卡压根没进部件树（多留末尾空白也没用，多出来的滚动量全跑到\n  空白上，卡片位置纹丝不动）。现在改成普通滚动，所有卡都能正常划到。\n\n· 弹窗内容太长时划不动。以前超出高度就直接溢出（底部被裁），现在内容区\n  可以滚动 —— 更新说明、公告这类长文本都能看全了。\n\n· 连续点深色模式开关会出现好几个圆、动画卡住。现在前一个扩散动画没播完\n  就不再叠新的一层，主题照切、只是跳过动画，连点反而更跟手。\n\n【清理】\n· 删除了 1.1.15 及以前的全部历史发行版（GitHub 与 Gitee 各 2 个）。\n  软件安装包所在的 files 发行版保留。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.18/app-arm64-v8a-release.apk",
   "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
   "installedVersions": {},
   "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
