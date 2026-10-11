@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "appName": "砚中雪",
-  "dataVersion":36,
+  "dataVersion":37,
   "categories": [
     {
       "id": "office",
@@ -204,8 +204,8 @@
   ],
   "appReleases": [],
   "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.1.14",
-  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.14/app-arm64-v8a-release.apk",
+  "appLatestVersion":"1.1.15","appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 修复「全部应用」里点软件卡片打不开详情页的问题。\n  原因是取动画起点时把网格的渲染对象硬转成了卡片，转换失败会让\n  点击回调整个中断，表现就是点卡片完全没反应、只有下载按钮能用。\n\n【调整】\n· 首页卡片堆叠：去掉了「被盖住就缩小变淡」的效果。\n  卡片吸顶后所有前序卡片都会长期处于「被覆盖」状态，\n  结果滑到底时满屏一起变小变淡，反而干扰阅读。\n· 换列动画调顺：时长 520→560ms，弧线弯曲度 12%→7%，相邻项错开 26→14ms。\n· 列表底部留出导航栏高度，最后一排不再被底部导航栏挡住。\n· 移除滚动时的方向性模糊。\n· 搜索恢复为常规过滤（只列出命中的软件），移除了折叠收起动画。\n\n【新增】\n· 设置 → 高级设置 → 液态玻璃（默认关闭）。\n  打开后卡片会用着色器实时折射背后的画面，模拟真实玻璃与光线。\n  需要在「透明」卡片风格下生效；设备不支持时会自动退回普通卡片。\n  每帧都要离屏渲染，比较耗电，所以默认关闭。\n\n【更新提示】\n· 「发现更新」和「检查更新」弹窗现在会列出本次更新内容，\n  不用再盲升。GitHub 与 Gitee 的发行说明同样带上。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.15/app-arm64-v8a-release.apk",
   "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
   "installedVersions": {},
   "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
