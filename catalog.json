@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":43,
+ "dataVersion":45,
  "categories": [
   {
    "id": "office",
@@ -216,7 +216,7 @@
   {
    "id": "1791718457974",
    "name": "GKD",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "自动跳过开屏广告。基于无障碍服务，规则可以在线订阅，常见应用基本都覆盖。",
    "recommended": false,
    "pinned": false,
@@ -237,7 +237,7 @@
   {
    "id": "1791718457975",
    "name": "InstallerX Revived",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "替换系统安装器的安装工具。界面更清爽，可选安装方式、装完自动清理安装包。",
    "recommended": false,
    "pinned": false,
@@ -258,7 +258,7 @@
   {
    "id": "1791718457976",
    "name": "InxLocker",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "把不常用的应用冻结起来，减少后台占用。",
    "recommended": false,
    "pinned": false,
@@ -342,7 +342,7 @@
   {
    "id": "1791718457980",
    "name": "R 安装组件",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "轻量的安装器组件，安装过程简单直接。",
    "recommended": false,
    "pinned": false,
@@ -363,7 +363,7 @@
   {
    "id": "1791718457981",
    "name": "Kbattery",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "电池信息查看与充电控制。\n文件备注：适用于 vivo、iQOO。",
    "recommended": false,
    "pinned": false,
@@ -384,7 +384,7 @@
   {
    "id": "1791718457982",
    "name": "欢太工具箱",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "OPPO / 一加机型的进阶功能合集。\n文件备注：适用于 OPPO、一加。",
    "recommended": false,
    "pinned": false,
@@ -404,7 +404,7 @@
   {
    "id": "1791718457983",
    "name": "玄戒工具箱",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "小米 / 红米机型的进阶功能合集。\n文件备注：适用于小米、红米。",
    "recommended": false,
    "pinned": false,
@@ -425,7 +425,7 @@
   {
    "id": "1791718457984",
    "name": "蓝河工具箱",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "vivo / iQOO 机型的进阶功能合集。\n文件备注：适用于 vivo、iQOO。",
    "recommended": false,
    "pinned": false,
@@ -446,7 +446,7 @@
   {
    "id": "1791718457985",
    "name": "安装狮",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "不用 root 也能静默安装、批量安装的应用安装器。",
    "recommended": false,
    "pinned": false,
@@ -467,7 +467,7 @@
   {
    "id": "1791718457986",
    "name": "清浊",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "清理垃圾、深度扫描存储空间。",
    "recommended": false,
    "pinned": false,
@@ -488,7 +488,7 @@
   {
    "id": "1791718457987",
    "name": "雹",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "冻结后台应用，减少唤醒、省电。",
    "recommended": false,
    "pinned": false,
@@ -509,7 +509,7 @@
   {
    "id": "1791718457988",
    "name": "黑阈",
-   "categoryId": "system",
+   "categoryId": "1791684209830",
    "description": "阻止应用在后台被唤醒，省电、减少卡顿。",
    "recommended": false,
    "pinned": false,
@@ -540,9 +540,11 @@
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.1.19",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 管理端入口几乎按不出来。\n  以前是「长按关于卡片里的版本号文字」，目标只有一行字那么高，\n  实机上基本按不到。\n\n【调整】\n· 管理端入口挪到「设置 → 其他设置 → 管理模式」，整行可点，一按就中。\n  安全性仍然由密码把关，不再靠「藏」。\n· 「关于」里不再提管理端（既没有入口，说明文字里也删掉了）。\n\n【内容】\n· 软件目录新增 16 个系统工具（App Ops、GKD、Shizuku、Scene、Stellar、\n  InstallerX Revived、InxLocker、R 安装组件、Kbattery、欢太工具箱、\n  玄戒工具箱、蓝河工具箱、安装狮、清浊、雹、黑阈）。\n  这些在 App 里点「检查更新」就能拉到，不用装新版本。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+ "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 管理端入口几乎按不出来。\n  以前是「长按关于卡片里的版本号文字」，目标只有一行字那么高，\n  实机上基本按不到。\n\n【调整】\n· 管理端入口挪到「设置 → 其他设置 → 管理模式」，整行可点，一按就中。\n  安全性仍然由密码把关，不再靠「藏」。\n· 「关于」里不再提管理端（既没有入口，说明文字里也删掉了）。\n\n【内容】\n· 软件目录新增 16 个系统工具（App Ops、GKD、Shizuku、Scene、Stellar、\n  InstallerX Revived、InxLocker、R 安装组件、Kbattery、欢太工具箱、\n  玄戒工具箱、蓝河工具箱、安装狮、清浊、雹、黑阈）。\n  这些在 App 里点「检查更新」就能拉到，不用装新版本。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.19/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
