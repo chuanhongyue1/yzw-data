@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":42,
+ "dataVersion":43,
  "categories": [
   {
    "id": "office",
@@ -539,12 +539,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.1.18",
- "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 首页最下面那张卡「划不上来」的问题。\n  之前每张推荐卡都是吸顶的，而吸顶卡不会被后面的卡挤出屏幕，只会永久\n  堆在顶部 —— 堆满之后后面的卡被顶到视口外面，永远够不着。实测滚到底\n  时最后一张卡压根没进部件树（多留末尾空白也没用，多出来的滚动量全跑到\n  空白上，卡片位置纹丝不动）。现在改成普通滚动，所有卡都能正常划到。\n\n· 弹窗内容太长时划不动。以前超出高度就直接溢出（底部被裁），现在内容区\n  可以滚动 —— 更新说明、公告这类长文本都能看全了。\n\n· 连续点深色模式开关会出现好几个圆、动画卡住。现在前一个扩散动画没播完\n  就不再叠新的一层，主题照切、只是跳过动画，连点反而更跟手。\n\n【清理】\n· 删除了 1.1.15 及以前的全部历史发行版（GitHub 与 Gitee 各 2 个）。\n  软件安装包所在的 files 发行版保留。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.18/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
+ "appLatestVersion":"1.1.19",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 管理端入口几乎按不出来。\n  以前是「长按关于卡片里的版本号文字」，目标只有一行字那么高，\n  实机上基本按不到。\n\n【调整】\n· 管理端入口挪到「设置 → 其他设置 → 管理模式」，整行可点，一按就中。\n  安全性仍然由密码把关，不再靠「藏」。\n· 「关于」里不再提管理端（既没有入口，说明文字里也删掉了）。\n\n【内容】\n· 软件目录新增 16 个系统工具（App Ops、GKD、Shizuku、Scene、Stellar、\n  InstallerX Revived、InxLocker、R 安装组件、Kbattery、欢太工具箱、\n  玄戒工具箱、蓝河工具箱、安装狮、清浊、雹、黑阈）。\n  这些在 App 里点「检查更新」就能拉到，不用装新版本。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.19/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
