@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "appName": "砚中雪",
-  "dataVersion":38,
+  "dataVersion":39,
   "categories": [
     {
       "id": "office",
@@ -204,8 +204,8 @@
   ],
   "appReleases": [],
   "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.1.16","appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 首页最后一张卡片（Telegram）不再被底部导航栏压住。\n  改成「内容区整体让开导航栏高度」，底栏高度和让开量共用同一个常量，\n  两边不会再各算各的而对不上。\n· 液态玻璃打开后切换界面 / 滑动不再卡顿。\n  原因是给列表里每一张卡都挂了折射（每帧都要离屏渲染），\n  现在只用在底栏、弹窗、轮播、名言卡这几处固定表面。\n· 弹窗的「微微弹动」现在看得见了（起点 0.78、时长 420ms，\n  之前幅度太小，被系统自带的转场盖掉了）。\n\n【调整】\n· 去掉了卡片下方那几层「示意堆叠」的圆角块 —— 实机上看是一排\n  黑乎乎的椭圆，很难看。\n· 「关于砚中雪」点一下会弹出详细说明：这个软件有什么用、\n  有哪些设置、怎么实现的。\n\n【新增】\n· 搜索时不再匹配的软件会**碎成小块飞散消失**（类似 Telegram 删消息）。\n  同时最多碎 3 个，多了直接消失，避免连打几个字触发大量截图导致输入卡顿。\n\n【清理】\n· 随内置浏览器一并删掉了它的遗留设置（书签、搜索引擎、油猴脚本、\n  广告拦截、桌面模式）和相关数据类。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
-  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.16/app-arm64-v8a-release.apk",
+  "appLatestVersion":"1.1.17","appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 底部内容被压住/留白的问题彻底解决。\n  之前是「自己算一个导航栏高度，让内容让开这么多」——那个数字既要等于\n  导航栏真实高度、又要避开安全区、还要跟列表自己的留白对齐，三处各算各的，\n  结果不是压住内容就是留一大截空白（安全区还被算了两次）。\n  现在改成让 Scaffold 自己排版：背景铺在 Scaffold 外面负责满屏，\n  内容区由 Scaffold 自动排在导航栏之上。**一个手算常量都不需要了。**\n\n【调整】\n· 弹窗比背景深一档（10%），强调它在最上层；不再靠模糊或阴影硬拉层次。\n· 移除了「液态玻璃」实验特性（折射着色器、设置开关、相关代码与着色器文件）。\n  它在实机上效果不明显，却要付出每帧离屏渲染的代价。\n\n【清理】\n· 删除了 1.1.14 之前的全部历史发行版（GitHub 20 个、Gitee 8 个）。\n  软件安装包所在的 files 发行版保留。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.17/app-arm64-v8a-release.apk",
   "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
   "installedVersions": {},
   "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
