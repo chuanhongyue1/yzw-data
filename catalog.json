@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "appName": "砚中雪",
-  "dataVersion":37,
+  "dataVersion":38,
   "categories": [
     {
       "id": "office",
@@ -204,8 +204,8 @@
   ],
   "appReleases": [],
   "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.1.15","appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 修复「全部应用」里点软件卡片打不开详情页的问题。\n  原因是取动画起点时把网格的渲染对象硬转成了卡片，转换失败会让\n  点击回调整个中断，表现就是点卡片完全没反应、只有下载按钮能用。\n\n【调整】\n· 首页卡片堆叠：去掉了「被盖住就缩小变淡」的效果。\n  卡片吸顶后所有前序卡片都会长期处于「被覆盖」状态，\n  结果滑到底时满屏一起变小变淡，反而干扰阅读。\n· 换列动画调顺：时长 520→560ms，弧线弯曲度 12%→7%，相邻项错开 26→14ms。\n· 列表底部留出导航栏高度，最后一排不再被底部导航栏挡住。\n· 移除滚动时的方向性模糊。\n· 搜索恢复为常规过滤（只列出命中的软件），移除了折叠收起动画。\n\n【新增】\n· 设置 → 高级设置 → 液态玻璃（默认关闭）。\n  打开后卡片会用着色器实时折射背后的画面，模拟真实玻璃与光线。\n  需要在「透明」卡片风格下生效；设备不支持时会自动退回普通卡片。\n  每帧都要离屏渲染，比较耗电，所以默认关闭。\n\n【更新提示】\n· 「发现更新」和「检查更新」弹窗现在会列出本次更新内容，\n  不用再盲升。GitHub 与 Gitee 的发行说明同样带上。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
-  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.15/app-arm64-v8a-release.apk",
+  "appLatestVersion":"1.1.16","appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 首页最后一张卡片（Telegram）不再被底部导航栏压住。\n  改成「内容区整体让开导航栏高度」，底栏高度和让开量共用同一个常量，\n  两边不会再各算各的而对不上。\n· 液态玻璃打开后切换界面 / 滑动不再卡顿。\n  原因是给列表里每一张卡都挂了折射（每帧都要离屏渲染），\n  现在只用在底栏、弹窗、轮播、名言卡这几处固定表面。\n· 弹窗的「微微弹动」现在看得见了（起点 0.78、时长 420ms，\n  之前幅度太小，被系统自带的转场盖掉了）。\n\n【调整】\n· 去掉了卡片下方那几层「示意堆叠」的圆角块 —— 实机上看是一排\n  黑乎乎的椭圆，很难看。\n· 「关于砚中雪」点一下会弹出详细说明：这个软件有什么用、\n  有哪些设置、怎么实现的。\n\n【新增】\n· 搜索时不再匹配的软件会**碎成小块飞散消失**（类似 Telegram 删消息）。\n  同时最多碎 3 个，多了直接消失，避免连打几个字触发大量截图导致输入卡顿。\n\n【清理】\n· 随内置浏览器一并删掉了它的遗留设置（书签、搜索引擎、油猴脚本、\n  广告拦截、桌面模式）和相关数据类。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.16/app-arm64-v8a-release.apk",
   "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
   "installedVersions": {},
   "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
