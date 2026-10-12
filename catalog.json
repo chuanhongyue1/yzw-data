@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":71,
+ "dataVersion":72,
  "categories": [
   {
    "id": "office",
@@ -701,12 +701,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.2.0",
- "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n这次先说个要紧的：管理页里点「测试订阅并启动」「测速选最快节点」或者手动开代理，\nApp 会卡住十几秒然后自己退掉。查出来了 —— 等代理内核起来的那段是在主线程上死等，\n系统以为你卡死了，就把进程杀了。现在挪到后台去等，等多久界面都能动。\n这个改动在原生代码里，得装了这个新包才算修好。\n\n另外几处：\n\n下载不再弹那个进度窗了。点完底下冒一句「已开始下载」，进度去下载中心看。\n按钮上「下载并安装」也直接改成「下载」—— 反正下完还是自动装。\n\n「全部应用」用单列看的时候，应用图标一直是扁的（量了一下，46 宽 40 高）。\n现在强制正方形，顺带把单列卡片里一个一直存在的小溢出也修了。\n\n首页那排公告卡片去掉了，公告统一放在最上面轮播的最前几张，不用在两处看同一件事。\n\n权限那几项换了开关样式。给了权限就变灰锁住 —— 系统权限本来在 App 里也撤不掉，\n给个能点的开关只会让人以为关了有用。\n\n管理端软件页多了个「新添加」，只列出你还没过目的那些，看完可以一键标记。\n它只在管理页里，用户端的分类栏里不会多出这个东西。\n\n「关于」和侧边栏里砚中雪前面的图标换成了雪花。\n管理密码也不再明文写在代码里了，换成只存哈希。\n\n版本号从这一版起改用 1.2.0。旧版本以后只留上一版，方便回滚。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.0/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
+ "appLatestVersion":"1.2.1",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版主要是「看着舒服一点」，外加一处安全清理。\n\n先说安全：管理密码以前是**明文写在代码里**的，谁翻到源码都能看见。现在只存加盐哈希，源码里再也找不到密码。（客户端里的东西理论上都能逆向，这只是把门槛抬高，和订阅链接那套一个思路。）\n\n然后是动画。首页推荐那一片现在是**交错进场**：从下方轻轻滑上来，带一点回弹，一项比一项晚一点起步。切换单列/两列/三列的时候，整组会重新滑一遍 —— 以前是「啪」一下直接换好，太生硬。管理端的软件列表也一样，换分类或者改搜索词都会重新滑一遍，读起来像有新内容进来了。\n\n一个软件现在可以**同时属于两个分类**了。比如「口袋工具」既在系统工具里、也在 shizuku 类里，详情页会写成「系统工具 · shizuku类」。以前只能挂一个。\n\n还修了「全部应用」单列时图标被压扁的问题（量过，是 46 宽 40 高，现在强制正方形），顺带把单列卡片一直存在的一个小溢出也消掉了。\n\n侧边栏和「关于」里砚中雪前面的图标换成了雪花。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.1/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
