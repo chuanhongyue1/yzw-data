@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":48,
+ "dataVersion":50,
  "categories": [
   {
    "id": "office",
@@ -141,7 +141,7 @@
    "versions": [
     {
      "version": "1.9.0",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/%E7%AC%AC%E4%B8%89%E6%96%B9%E8%93%9D%E5%A5%8F%E4%BA%91-1.9.0.apk",
+     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/splitlanzou-1.9.0.apk",
      "fileType": "apk"
     }
    ]
@@ -187,7 +187,7 @@
    "versions": [
     {
      "version": "2.9.71",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/%E6%98%9F%E6%B5%B7%E5%8A%A9%E6%89%8B-2.9.71.apk",
+     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/xinghai-2.9.71.apk",
      "fileType": "apk"
     }
    ]
@@ -540,9 +540,11 @@
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.1.22",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【新增】\n· 管理页「软件」标签支持**按分类筛选**：上方一排分类标签，每个都标着\n  该分类下有几个软件，点一下只看这一类。\n· 同一个位置还加了**按名称搜索**，分类 + 关键字可以一起用。\n\n【修复】\n· 管理页的标签栏报错。控制器声明了 5 个标签，实际有 6 个\n  （软件/分类/公告/名言/版本/发布）——「发布」是后加的，忘了同步。\n  表现是每次打开管理页都抛断言，第 6 个标签的切换也不正常。\n\n【调整】\n· 管理端入口：设置 → 关于 → 弹出的说明里连点顶部 📦 图标 7 下。\n  有轻微震动反馈，中断超过 3 秒自动清零。\n\n【内容】\n· 新收录的 16 个软件已全部归到「shizuku类」。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+ "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【新增】\n· 管理页「软件」标签支持**按分类筛选**：上方一排分类标签，每个都标着\n  该分类下有几个软件，点一下只看这一类。\n· 同一个位置还加了**按名称搜索**，分类 + 关键字可以一起用。\n\n【修复】\n· 管理页的标签栏报错。控制器声明了 5 个标签，实际有 6 个\n  （软件/分类/公告/名言/版本/发布）——「发布」是后加的，忘了同步。\n  表现是每次打开管理页都抛断言，第 6 个标签的切换也不正常。\n\n【调整】\n· 管理端入口：设置 → 关于 → 弹出的说明里连点顶部 📦 图标 7 下。\n  有轻微震动反馈，中断超过 3 秒自动清零。\n\n【内容】\n· 新收录的 16 个软件已全部归到「shizuku类」。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.22/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
