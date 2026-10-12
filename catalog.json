@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":66,
+ "dataVersion":67,
  "categories": [
   {
    "id": "office",
@@ -679,9 +679,9 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.1.27",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n安装包：app-arm64-v8a-release.apk（现代手机用这个，体积更小）\n\n—— 本次更新 ——\n\n【新增】\n· 「个性化设置」里新增**文字大小**，四档可选：小 / 标准 / 大 / 特大。\n  整个界面一起变，软件列表、公告、弹窗都算。\n  如果你在手机系统里也调过字体大小，会在这个基础上再缩放。\n\n【调整】\n· 去掉了软件详情页的「历史版本」，以及设置里的「所有版本」入口。\n  以后再改版本信息只动管理端 →「版本」这一处，用户端只看得到当前版本，\n  界面更干净，也不会再出现“点进去一堆旧版本不知道下哪个”。\n\n【修复】\n· 更新包的下载地址修好了。上一版的主地址所在仓库变成了私有，\n  匿名下载会直接 403（更新会失败）。现在主地址走 GitHub 发行版，\n  另有 GitHub Pages 和 Gitee 两个备用地址，App 会自己测速挑最快的那条。\n\n—— 说明 ——\n\nApp 内的「检查更新」走 GitHub Pages 通道；这里用于手动下载和版本归档。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.1.27/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.1.28",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n安装包：app-arm64-v8a-release.apk（现代手机用这个，体积更小）\n\n—— 本次更新 ——\n\n【修复】\n· 全部应用里图标被拉成椭圆、滑动时整屏跟着动、快速滑动「飞起来再落下来」\n  —— 这是安卓 12+ 系统默认的「拉伸回弹」在作怪，现在关掉了，滚动到头就是停住。\n\n【新增】\n· 背景图支持调**模糊程度**（个性化设置里，默认 0% 不模糊，需要再往右拉）。\n· 首页「推荐」右侧新增排列按钮：单列 / 两列 / 三列自己选。\n  和「全部应用」的列数是两套设置，互不影响。\n· 下载按钮变成三段式：点下去文字弹出、按钮收成圆形转圈，1.2 秒后变绿画出对勾，\n  再过 1 秒复原。\n· 所有开关换成「果冻开关」：圆点滑过去时会被拉长成胶囊，到位弹回正圆。\n\n【调整】\n· 首页顶部的轮播现在**把公告放在最前面**，后面的公告也会排进来；\n  软件部分只放管理页里「置顶 + 五星 + 推荐」三项全勾上的，位置留给真正的重点。\n· 去掉了管理端的「屏蔽」功能（新加筛选、一键屏蔽、每行的眼睛开关）。\n  软件本来就有分类可以归类，不需要再多一层隐藏。\n\n—— 说明 ——\n\nApp 内的「检查更新」走 GitHub Pages 通道；这里用于手动下载和版本归档。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.1.28/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
