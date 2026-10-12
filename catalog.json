@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":54,
+ "dataVersion":55,
  "categories": [
   {
    "id": "office",
@@ -543,12 +543,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.1.22",
- "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【新增】\n· 管理页「软件」标签支持**按分类筛选**：上方一排分类标签，每个都标着\n  该分类下有几个软件，点一下只看这一类。\n· 同一个位置还加了**按名称搜索**，分类 + 关键字可以一起用。\n\n【修复】\n· 管理页的标签栏报错。控制器声明了 5 个标签，实际有 6 个\n  （软件/分类/公告/名言/版本/发布）——「发布」是后加的，忘了同步。\n  表现是每次打开管理页都抛断言，第 6 个标签的切换也不正常。\n\n【调整】\n· 管理端入口：设置 → 关于 → 弹出的说明里连点顶部 📦 图标 7 下。\n  有轻微震动反馈，中断超过 3 秒自动清零。\n\n【内容】\n· 新收录的 16 个软件已全部归到「shizuku类」。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.22/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
+ "appLatestVersion":"1.1.23",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【下载加速】\n· 并行连接数 4 → 8，大文件下载更快。\n· 分片改成「抢单制」：把文件切成远多于连接数的许多小块，哪条连接先空\n  谁就去抢下一块。以前是「4 条连接各包 1/4」，只要有一条慢，整条下载就\n  得干等它，实际经常是 3 条早下完、剩 1 条慢慢爬。\n· 断点续传也走并行。以前续传是单连接把剩下的部分下完 ——\n  一个 200 MB 的文件下到一半断了，续传等于全程单连接，非常吃亏。\n· 单个分片卡死或出错会重新排队重试（最多 3 次），不再一有问题就整体\n  退回单连接。\n\n【说明】\n· 以上改动都用本地服务器做了逐字节校验：分片拼出的文件必须和原文件\n  完全一致才算通过。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.23/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
