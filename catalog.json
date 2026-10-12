@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":78,
+ "dataVersion":79,
  "categories": [
   {
    "id": "office",
@@ -724,9 +724,9 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.2.4",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版两件事：下载并发数可以自己调了，以及横屏的切换动画。\n\n**下载线程数（设置里可调）**\n\n单个文件的并发连接数以前是写死的 8，现在「其他设置 → 下载线程数」里能选 4 / 8 / 16 / 32 / 64 / 128 / 512。默认还是 8。\n\n但我得把话说清楚，免得你调大了反而更慢：\n\n· **Gitee 的附件根本不支持分片**（它不返回 Accept-Ranges），单文件切不了片，调多大都一样。这个开关只对**走代理的 GitHub 链接**有效。\n· 之前实测过同一时段并发拉文件的总吞吐：**1 条 0.89 → 2 条 1.50 → 4 条 4.52 → 8 条 3.80 MB/s**。注意最后那个：**8 条比 4 条还慢**。已经过了甜点。\n· 所以 512 那个选项我给上了，但**不代表越大越快** —— 更常见的结果是被服务器判定为异常流量、提前限速甚至拒绝。要试就从 16 开始，别直接拉满。\n· 还有一层限制：实际条数 = 文件大小 ÷ 2MB，100MB 的文件就算设 512 也只会有 50 条。\n\n**横屏的切换动画**\n\n切板块的动画以前是从下往上滑 1.5% —— 那是照着手机底栏设计的。横屏时导航在**左侧**，还从下往上滑方向就不对，而且 1.5% 在 3000px 宽的屏幕上看不见。现在宽屏改成**从左侧滑入**，幅度也加大了。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.4/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.2.5",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n改的是「进 App 时那个更新检查」的打扰程度。\n\n以前有个烦人之处：数据版本比线上旧就会弹「发现更新」。你点过「稍后」，下次启动还会弹**同一个框** —— 因为数据没导进去，它就一直认为你落后。\n\n现在分清楚了：\n\n· **数据更新改成静默同步**。启动时发现线上数据更新，直接在你没察觉的时候同步好，不弹窗、不提示。\n· **没有新版本就什么都不做** —— 不弹窗、不弹提示、不发通知。\n· **只有 App 真的有新版本才弹窗**，而且同一个版本只提醒一次（点过「稍后」就不再重复弹同一个版本）。\n\n也就是说：进 App 它照旧在后台查一次，但你只有真的该升级时才会被打扰。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.5/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
