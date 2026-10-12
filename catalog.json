@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":59,
+ "dataVersion":60,
  "categories": [
   {
    "id": "office",
@@ -679,9 +679,9 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.1.24",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【下载】\n· 新增**分卷下载**：超过 Gitee 单文件上限（100MB）的大安装包，现在可以切成\n  若干卷上传，App 会自动按顺序下完再合并成一个完整安装包 —— 你只需要点一次\n  下载，不用自己拼。\n· 每个分卷内部同样是多连接并行下的，不会因为分卷而变慢。\n· 已经下完的分卷在续传时会自动跳过，不用重新下。\n\n【新增软件目录】\n· ZArchiver Pro、Temp Mail、动漫共和国。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-files/releases/download/v1.1.24/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.1.25",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 分卷软件（omofun / Lanerc / 番茄免费小说）下载完却一直显示「正在连接」。\n  原因是分卷合并成功后漏了「标记完成」这一步，安装包其实早就拼好落盘了，\n  界面却停在连接中，看起来像卡死。现在会正常结束并直接拉起安装。\n\n【新增】\n· 安装完成后自动删除安装包，省手机空间。\n  软件安装包和 App 自己的更新包都会清理。\n  不是立刻删 —— 系统安装器还在读这个文件，马上删会导致安装失败，\n  所以等安装器读完、你点完「安装」之后再删。\n· 「关于」里现在也会写出本版更新了什么，不用非得等更新弹窗才能回看。\n\n【下载】\n· 分卷下载：超过 Gitee 单文件上限（100MB）的大安装包切成若干卷上传，\n  App 自动按顺序下完再合并，你只需要点一次下载。\n· 下载加速：并行连接数 4 → 8；分片改成「抢单制」（哪条连接先空谁去抢下一块），\n  不再因为某一条慢就整体干等；断点续传也走并行。\n\n【软件目录】\n· 新增：ZArchiver Pro、Temp Mail、动漫共和国、Lanerc、omofun、番茄免费小说。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-app/releases/download/v1.1.25/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
