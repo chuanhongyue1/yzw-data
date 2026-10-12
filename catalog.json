@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":60,
+ "dataVersion":61,
  "categories": [
   {
    "id": "office",
@@ -679,9 +679,9 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.1.25",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n本发行版提供两个安装包：\n\n· app-release.apk            —— 通用包，任何安卓机型都能装\n· app-arm64-v8a-release.apk  —— 现代手机用这个，体积更小\n\n—— 本次更新 ——\n\n【修复】\n· 分卷软件（omofun / Lanerc / 番茄免费小说）下载完却一直显示「正在连接」。\n  原因是分卷合并成功后漏了「标记完成」这一步，安装包其实早就拼好落盘了，\n  界面却停在连接中，看起来像卡死。现在会正常结束并直接拉起安装。\n\n【新增】\n· 安装完成后自动删除安装包，省手机空间。\n  软件安装包和 App 自己的更新包都会清理。\n  不是立刻删 —— 系统安装器还在读这个文件，马上删会导致安装失败，\n  所以等安装器读完、你点完「安装」之后再删。\n· 「关于」里现在也会写出本版更新了什么，不用非得等更新弹窗才能回看。\n\n【下载】\n· 分卷下载：超过 Gitee 单文件上限（100MB）的大安装包切成若干卷上传，\n  App 自动按顺序下完再合并，你只需要点一次下载。\n· 下载加速：并行连接数 4 → 8；分片改成「抢单制」（哪条连接先空谁去抢下一块），\n  不再因为某一条慢就整体干等；断点续传也走并行。\n\n【软件目录】\n· 新增：ZArchiver Pro、Temp Mail、动漫共和国、Lanerc、omofun、番茄免费小说。\n\n—— 说明 ——\n\nApp 内的「检查更新」走的是 GitHub Pages 通道（更新源），\n这里主要用于手动下载、版本归档和历史回溯。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-app/releases/download/v1.1.25/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.1.26",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n安装包：app-arm64-v8a-release.apk（现代手机用这个，体积更小）\n\n—— 本次更新 ——\n\n【下载】\n· 内置代理修好了：以前内核启动要先从 GitHub 下载「地理库」，而需要代理的时候\n  恰恰连不上 GitHub，于是内核直接退出、代理静默失效 —— 这就是「开了代理也没\n  变快」的原因。现在不再依赖它，代理能正常起来。\n· GitHub 一律走代理，不再试探直连。实测这条线路上 GitHub 直连会在 0 到 3.7 MB/s\n  之间乱跳，有时干脆打不开；一律走代理反而稳定。\n· 代理节点改成按**真实下载速度**自动选。以前按延迟挑，实测延迟相近的节点速度\n  能差十几倍；现在会拿真实文件测一小段再定，3 分钟内复用。\n· 起内核和测速的过程会写在下载弹窗上（「正在测速选线路…」），不让你对着不动的\n  界面干等。\n· 分卷软件（omofun / Lanerc / 番茄免费小说）改成多卷同时下载，更快。\n· 分卷软件现在会显示合并后的总大小，下载时有百分比和剩余时间。\n  （以前 Gitee 不给文件大小，界面只能显示「服务器未提供总大小」。）\n\n【修复】\n· 管理端的「屏蔽」以前只是记了个标记，用户端的主列表、搜索结果、更新提示里其实\n  还会出现；现在真的藏住了。\n· 管理页顶部标签挤成一团、每个只露出一个字；现在 8 个标签都完整显示。\n\n【界面】\n· 首页「推荐」改成多列网格（和「全部应用」共用 1/2/3 列设置），并修好了卡片\n  之间重叠 16px 的问题 —— 以前看着像糊成一大坨。\n· 分类那一栏的右边缘改成渐隐，不再被硬生生切断。\n· 首页搜索：搜不到时输入框会抖一下并变红、下面滑出一行说明；不再匹配的结果\n  会粉碎消失。\n· 弹窗：背景轻微模糊、弹窗本身少透一点，文字清楚多了。\n\n【管理端】\n· 新增「新加的」筛选和一键屏蔽：线上更新带进来一批新软件时，可以先筛出来过一遍，\n  没打理好的先屏蔽住，打理完再放出来。\n\n—— 说明 ——\n\nApp 内的「检查更新」走 GitHub Pages 通道；这里用于手动下载和版本归档。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yzw-app/releases/download/v1.1.26/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
