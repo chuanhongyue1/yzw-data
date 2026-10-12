@@ -76,7 +76,8 @@
                                               "releaseNotes":  "安卓的，官网还有windos，macOS，iOS，linux",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "org.localsend.localsend_app"
                      },
                      {
                          "id":  "1791682811399",
@@ -100,7 +101,8 @@
                                               "downloadUrl":  "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/MoePal-4.5.0.apk",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.moecloud.helper"
                      },
                      {
                          "id":  "1791683908945",
@@ -146,7 +148,8 @@
                                               "fileSizeBytes":  8662292,
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.lanzou.cloud"
                      },
                      {
                          "id":  "1791684359923",
@@ -168,7 +171,8 @@
                                               "downloadUrl":  "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/Telegram-13.0.1.apk",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "org.telegram.messenger.web"
                      },
                      {
                          "id":  "1791684632326",
@@ -193,7 +197,8 @@
                                               "fileSizeBytes":  7594711,
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.stars.app"
                      },
                      {
                          "id":  "1791718457973",
@@ -212,7 +217,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "rikka.appops"
                      },
                      {
                          "id":  "1791718457974",
@@ -231,7 +237,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "li.songe.gkd"
                      },
                      {
                          "id":  "1791718457975",
@@ -250,7 +257,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.rosan.installer.x.revived"
                      },
                      {
                          "id":  "1791718457976",
@@ -269,7 +277,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "io.github.chimio.inxlocker"
                      },
                      {
                          "id":  "1791718457977",
@@ -288,7 +297,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "moe.shizuku.privileged.api"
                      },
                      {
                          "id":  "1791718457978",
@@ -307,7 +317,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "roro.stellar.manager"
                      },
                      {
                          "id":  "1791718457979",
@@ -326,7 +337,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.omarea.vtools"
                      },
                      {
                          "id":  "1791718457980",
@@ -345,7 +357,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.yxer.packageinstalles"
                      },
                      {
                          "id":  "1791718457981",
@@ -365,7 +378,8 @@
                                               "fileType":  "apk",
                                               "publishedAt":  "2026-10-11T19:34:17"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.example.kbattery"
                      },
                      {
                          "id":  "1791718457982",
@@ -385,7 +399,8 @@
                                               "fileType":  "apk",
                                               "publishedAt":  "2026-10-11T19:34:17"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.xianbei.app"
                      },
                      {
                          "id":  "1791718457983",
@@ -405,7 +420,8 @@
                                               "fileType":  "apk",
                                               "publishedAt":  "2026-10-11T19:34:17"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.xuanjiecjd.app"
                      },
                      {
                          "id":  "1791718457984",
@@ -425,7 +441,8 @@
                                               "fileType":  "apk",
                                               "publishedAt":  "2026-10-11T19:34:17"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.bluestudiocjd.app"
                      },
                      {
                          "id":  "1791718457985",
@@ -501,7 +518,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "me.piebridge.brevent"
                      },
                      {
                          "id":  "1791774016579",
@@ -520,7 +538,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "ru.zdevs.zarchiver.pro"
                      },
                      {
                          "id":  "1791774016580",
@@ -539,7 +558,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "app.fakesmail.com"
                      },
                      {
                          "id":  "1791774016581",
@@ -558,7 +578,8 @@
                                               "releaseNotes":  "首个收录版本",
                                               "fileType":  "apk"
                                           }
-                                      ]
+                                      ],
+                         "packageName":  "com.sdmnfowa.soad.p1"
                      },
                      {
                          "id":  "1791774825123",
@@ -693,8 +714,10 @@
     "feedbackEmail":  "chuanhongyue959@gmail.com",
     "appLatestVersion":"1.3.2",
     "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.2/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
-    "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n两个变化。\n\n「全部应用」分类栏最前面多了 **⭐ 推荐** 和 **📌 置顶**。它们不是真分类，是按你打过的标记自动筛的 —— 你在管理里勾了推荐或置顶的软件会自动出现在里面，不用再一个分类一个分类翻。\n\n再就是**首页那个搜索栏**。以前它打开的是一个单独的搜索页，而那个页面是另写的一套、没有粉碎动画、结果也不会平滑上移 —— 所以你会觉得「从首页搜没动画，从全部应用搜就有」。查下来确实是这样：**两套搜索实现**。现在首页搜索栏直接进「全部应用」，两个入口共用同一套，动画就一致了。顺手把粉碎放慢了一点（420 → 540 毫秒），之前收得太快看不清。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+    "appDownloadMirrors":  [
+                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+                           ],
+    "appReleaseNotes":  "砚中雪 · 安卓软件下载与管理\n\n修一个**悄悄吃掉你几吉字节空间**的 bug：取消分卷下载时，已经下下来的分卷**一个都不会删**。\n\n先说清楚问题有多大：像蜡笔小新那种 2.3 GB 的分卷包，你下到一半点「取消」，界面上任务没了、看起来干净了，但**那些下了一半的分卷文件原封不动躺在磁盘上** —— 2.3 GB 空间就这么没了，而且在文件管理器里不一定认得出是什么。\n\n原因很小：分卷的临时文件叫 `xxx.apk.vol0`、`xxx.apk.vol1`……，而清理逻辑只认 `xxx.apk.part0` 和 `xxx.apk.resume` 这两种名字 —— **`.vol` 根本不在清理范围内**，所以一个都没删掉。现在补上了。\n\n顺带说明「取消」和「暂停」的区别（这两个行为是故意不同的）：\n\n· **暂停**：保住已下载的部分，之后可以从断点接着下\n· **取消**：连接掐断、已下载的临时文件**全部清掉**（取消前会问你一次，就是怕你误点）\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
     "installedVersions":  {
 
                           },
