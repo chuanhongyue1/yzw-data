@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":76,
+ "dataVersion":77,
  "categories": [
   {
    "id": "office",
@@ -724,9 +724,9 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.2.2",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版修两个「用着用着就出问题」的地方。\n\n一是分类。以前管理里加软件只有一个分类下拉框，一个软件只能挂一个分类。现在改成可以多选：点一下选中、再点取消，**第一个选中的是主分类**（详情页和搜索里显示的那个），其余的当标签。比如「轻点」既是系统工具，又该出现在 shizuku 类里，现在能同时挂上了。\n\n二是下载。这个是真 bug：退到后台再回来会弹「下载失败」，走内置代理时尤其必现。查出来原因是 —— App 里**根本没有前台服务**，退到后台后系统随时可以回收进程，而内置代理 mihomo 是本进程拉起来的**子进程**，进程一被收走它就跟着死。下载要经过 127.0.0.1 的代理端口，内核一死连接就被拒，任务直接判失败，回到 App 就弹给你看。\n\n现在下载期间会挂一个前台服务（通知栏能看到「正在下载」），系统不会回收这个进程，代理内核也就活着。没任务时会自动撤掉，不会一直占着通知栏。\n\n顺带说明：这个前台服务只负责保活，下载还是 App 自己在做。如果你手机上还有「退到后台就断」的情况，告诉我，那是厂商 ROM 的额外限制，得再加白名单引导。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.2/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.2.3",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版修的是平板 / 横屏下的左侧菜单。\n\n先说个真 bug：平板的左侧菜单里**硬编码了 5 个板块**，把「网页程序」塞在第 3 个位置，可实际的页面只有 4 个 —— 结果平板上点「网页程序」打开的是下载中心、点「下载中心」打开的是设置、点「设置」直接越界什么都出不来。一份数据写了两遍，迟早对不上。现在菜单统一从同一份配置生成，加板块不会再错位。\n\n顺带一提：「网页程序」这个板块其实**从来没有实现过** —— 没有对应页面、目录里也没有这类数据。它只是早期设计留下的一个标签，所以这次先从菜单里拿掉了。你要是想要这个板块，告诉我它该显示什么（比如收藏的网页工具列表？），我给你做出来。\n\n另外平板的左侧菜单以前是**一点动画都没有**的：选中只是颜色瞬间一变。现在和手机底栏一样，高亮块会**滑**到选中项（带一点回弹），图标选中时轻轻放大、空心换实心带淡入，文字也往右让一点。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.3/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
