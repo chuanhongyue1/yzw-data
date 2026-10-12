@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":79,
+ "dataVersion":80,
  "categories": [
   {
    "id": "office",
@@ -681,12 +681,12 @@
    "star": 5,
    "versions": [
     {
-     "version": "2.5",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/qingdian-2.5.apk",
+     "version": "3.1",
+     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/qingdian-3.1.apk",
      "fileType": "apk",
-     "fileSizeBytes": 699851,
-     "publishedAt": "2026-10-12T12:33:09",
-     "releaseNotes": "更新到 2.5；应用名正式改为「轻点」"
+     "fileSizeBytes": 824349,
+     "publishedAt": "2026-10-12T13:25:51",
+     "releaseNotes": "更新到 3.1"
     }
    ]
   },
@@ -725,9 +725,11 @@
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.2.5",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n改的是「进 App 时那个更新检查」的打扰程度。\n\n以前有个烦人之处：数据版本比线上旧就会弹「发现更新」。你点过「稍后」，下次启动还会弹**同一个框** —— 因为数据没导进去，它就一直认为你落后。\n\n现在分清楚了：\n\n· **数据更新改成静默同步**。启动时发现线上数据更新，直接在你没察觉的时候同步好，不弹窗、不提示。\n· **没有新版本就什么都不做** —— 不弹窗、不弹提示、不发通知。\n· **只有 App 真的有新版本才弹窗**，而且同一个版本只提醒一次（点过「稍后」就不再重复弹同一个版本）。\n\n也就是说：进 App 它照旧在后台查一次，但你只有真的该升级时才会被打扰。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n改的是「进 App 时那个更新检查」的打扰程度。\n\n以前有个烦人之处：数据版本比线上旧就会弹「发现更新」。你点过「稍后」，下次启动还会弹**同一个框** —— 因为数据没导进去，它就一直认为你落后。\n\n现在分清楚了：\n\n· **数据更新改成静默同步**。启动时发现线上数据更新，直接在你没察觉的时候同步好，不弹窗、不提示。\n· **没有新版本就什么都不做** —— 不弹窗、不弹提示、不发通知。\n· **只有 App 真的有新版本才弹窗**，而且同一个版本只提醒一次（点过「稍后」就不再重复弹同一个版本）。\n\n也就是说：进 App 它照旧在后台查一次，但你只有真的该升级时才会被打扰。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.5/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
