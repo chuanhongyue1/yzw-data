@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":102,
+    "dataVersion":103,
     "categories":  [
                        {
                            "id":  "office",
@@ -712,12 +712,10 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.3.5",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.5/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":  [
-                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
-                           ],
-    "appReleaseNotes":  "砚中雪 · 安卓软件下载与管理\n\n把上一版那个弹动去掉了 —— 弹跳是有意做出来的效果，摆在列表里显得浮，你要的是顺。现在改成**平滑上移**：上面一项被搜没之后，下面的项从原位置顺顺地滑上来，不越界、不回弹（230 毫秒收住）。\n\n顺带清理了代码：删掉两个已经没人用的文件（一个是首页搜索改版后废弃的旧搜索页，一个是被平滑方案取代的弹动组件）。项目里现在没有无人引用的文件了。\n\n关于流畅度，说明一下这一块的实现方式：位移走的是**合成层变换**，不会触发重新布局；动画只重建它在的那一层，不会连累整个列表跟着重建。所以滚动和移位都不该掉帧。（唯一较重的是粉碎那一下需要截屏，代码里本来就限制成同时最多 3 个。）\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+    "appLatestVersion":"1.3.6",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.6/app-arm64-v8a-release.apk",
+    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+    "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n终于把「上面的软件被搜没之后，下面那些不平滑地上来」修对了。\n\n前两版我一直判断错方向：以为列表项的状态会被复用，所以把位移逻辑写在「更新时」那一步 —— 而实际情况是，某一项被删掉后，挤到这个位置的**是另一个软件**，系统认为它是全新的一项、重新创建状态，**根本不会走「更新」那条路**。所以那段代码从头到尾一次都没执行过，元素是瞬间跳上去的。\n\n现在改成：**由列表自己记住每个软件上一轮在第几格**，把「你原来在第 1 格」直接告诉每一项，它就知道该从哪儿滑过来。测下来：起始停在旧位置、结束时精确落在新位置。\n\n这次我补了一个能复现的测试（断言删除后那一项**必须还在旧位置**、最终**必须精确到位**），而不是靠推理说「修好了」。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
     "installedVersions":  {
 
                           },
