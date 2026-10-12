@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":82,
+ "dataVersion":83,
  "categories": [
   {
    "id": "office",
@@ -681,12 +681,12 @@
    "star": 5,
    "versions": [
     {
-     "version": "3.3",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/yichu-3.3.apk",
+     "version": "3.4",
+     "downloadUrl": "https://gitee.com/dfsdfs1/zidongdianjiqi/releases/download/v3.4/qingdian.apk",
      "fileType": "apk",
-     "fileSizeBytes": 824577,
-     "publishedAt": "2026-10-12T13:34:00",
-     "releaseNotes": "更新到 3.3，改名「一触」，换新图标"
+     "fileSizeBytes": 832597,
+     "publishedAt": "2026-10-12T13:42:31",
+     "releaseNotes": "更新到 3.4（源自作者仓库）"
     }
    ]
   },
