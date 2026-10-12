@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":75,
+ "dataVersion":76,
  "categories": [
   {
    "id": "office",
@@ -724,12 +724,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.2.1",
- "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n这版主要是「看着舒服一点」，外加一处安全清理。\n\n先说安全：管理密码以前是**明文写在代码里**的，谁翻到源码都能看见。现在只存加盐哈希，源码里再也找不到密码。（客户端里的东西理论上都能逆向，这只是把门槛抬高，和订阅链接那套一个思路。）\n\n然后是动画。首页推荐那一片现在是**交错进场**：从下方轻轻滑上来，带一点回弹，一项比一项晚一点起步。切换单列/两列/三列的时候，整组会重新滑一遍 —— 以前是「啪」一下直接换好，太生硬。管理端的软件列表也一样，换分类或者改搜索词都会重新滑一遍，读起来像有新内容进来了。\n\n一个软件现在可以**同时属于两个分类**了。比如「口袋工具」既在系统工具里、也在 shizuku 类里，详情页会写成「系统工具 · shizuku类」。以前只能挂一个。\n\n还修了「全部应用」单列时图标被压扁的问题（量过，是 46 宽 40 高，现在强制正方形），顺带把单列卡片一直存在的一个小溢出也消掉了。\n\n侧边栏和「关于」里砚中雪前面的图标换成了雪花。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.1/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
+ "appLatestVersion":"1.2.2",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版修两个「用着用着就出问题」的地方。\n\n一是分类。以前管理里加软件只有一个分类下拉框，一个软件只能挂一个分类。现在改成可以多选：点一下选中、再点取消，**第一个选中的是主分类**（详情页和搜索里显示的那个），其余的当标签。比如「轻点」既是系统工具，又该出现在 shizuku 类里，现在能同时挂上了。\n\n二是下载。这个是真 bug：退到后台再回来会弹「下载失败」，走内置代理时尤其必现。查出来原因是 —— App 里**根本没有前台服务**，退到后台后系统随时可以回收进程，而内置代理 mihomo 是本进程拉起来的**子进程**，进程一被收走它就跟着死。下载要经过 127.0.0.1 的代理端口，内核一死连接就被拒，任务直接判失败，回到 App 就弹给你看。\n\n现在下载期间会挂一个前台服务（通知栏能看到「正在下载」），系统不会回收这个进程，代理内核也就活着。没任务时会自动撤掉，不会一直占着通知栏。\n\n顺带说明：这个前台服务只负责保活，下载还是 App 自己在做。如果你手机上还有「退到后台就断」的情况，告诉我，那是厂商 ROM 的额外限制，得再加白名单引导。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.2/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
