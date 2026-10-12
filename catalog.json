@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":83,
+ "dataVersion":84,
  "categories": [
   {
    "id": "office",
@@ -699,16 +699,20 @@
    "versions": [
     {
      "version": "1.0.0",
-     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.p01",
      "altUrls": [
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.002",
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.003",
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.004"
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.p02",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.p03",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.p04",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.p05",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.p06",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.p07",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.p08"
      ],
      "fileType": "apk-parts",
      "fileSizeBytes": 2410850308,
      "publishedAt": "2026-10-12T12:25:01",
-     "releaseNotes": "首个收录版本（分卷 4 卷 · 共 2.3 GB）"
+     "releaseNotes": "改为 8 卷（每卷 287 MB），并发下载时尾巴更短、速度更稳"
     }
    ]
   }
