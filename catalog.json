@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":99,
+    "dataVersion":100,
     "categories":  [
                        {
                            "id":  "office",
@@ -712,10 +712,10 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.3.4",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.4/app-arm64-v8a-release.apk",
+    "appLatestVersion":"1.3.5",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.5/app-arm64-v8a-release.apk",
     "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
-    "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版修上一版（1.3.2）我把首页搜索改坏的两处，外加一个更早埋下的毛病。\n\n**一、上版首页搜索打开后：页面变黑、文字多出下划线、分类被放得很大。**\n\n原因是我把「全部应用」这个页面**当成独立页面打开**了 —— 它平时是主界面里的一个标签页，外面套着背景和容器。单独打开时那些外壳全没了：没有背景就是黑的，缺少容器 Flutter 就会用下划线把文字标出来。现在按主界面的层次给它补齐了。\n\n**二、「全部应用」里两项之间莫名空出一大段。**\n\n这个更隐蔽：列表项没有按软件区分身份，Flutter 就按「位置」记状态。一个软件被搜没之后，它的「播完动画再移除」的回调挂到了另一个软件身上，于是永远不执行 —— 那一格就一直空在那里。现在按软件本身区分身份，空档和动画一起修好了。\n\n**三、顺带：上一版说过的惯性上移动画，因为同一个原因其实没生效。** 现在配上正确的身份区分，才会真的出现「冲上来撞一下再晃回去」的效果。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+    "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n把上一版那个弹动去掉了 —— 弹跳是有意做出来的效果，摆在列表里显得浮，你要的是顺。现在改成**平滑上移**：上面一项被搜没之后，下面的项从原位置顺顺地滑上来，不越界、不回弹（230 毫秒收住）。\n\n顺带清理了代码：删掉两个已经没人用的文件（一个是首页搜索改版后废弃的旧搜索页，一个是被平滑方案取代的弹动组件）。项目里现在没有无人引用的文件了。\n\n关于流畅度，说明一下这一块的实现方式：位移走的是**合成层变换**，不会触发重新布局；动画只重建它在的那一层，不会连累整个列表跟着重建。所以滚动和移位都不该掉帧。（唯一较重的是粉碎那一下需要截屏，代码里本来就限制成同时最多 3 个。）\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
     "installedVersions":  {
 
                           },
