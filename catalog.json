@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":69,
+ "dataVersion":70,
  "categories": [
   {
    "id": "office",
@@ -666,6 +666,28 @@
     }
    ],
    "icon": "data:image/jpeg;base64,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"
+  },
+  {
+   "id": "1791804590381",
+   "name": "口袋工具",
+   "categoryId": "system",
+   "tags": [
+    "1791684209830"
+   ],
+   "description": "Root / Shizuku 就能直接跑的屏幕自动点击工具，不需要无障碍。悬浮窗是纯图标竖条，每个点击点都能拖动和改参数；运行中整条浮窗变红，点任意位置即停止（不再用瞄那个小按钮）。v2.2 修了「暂停后还在点」（shell 命令排队堆积）、「暂停键点不到」和「暂停后又自己跑起来」（线程竞态），作者还会继续更新。",
+   "icon": "👆",
+   "recommended": true,
+   "pinned": true,
+   "star": 5,
+   "versions": [
+    {
+     "version": "2.2",
+     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/koudai-tool-2.2.apk",
+     "fileSizeBytes": 690659,
+     "fileType": "apk",
+     "publishedAt": "2026-10-12"
+    }
+   ]
   }
  ],
  "announcements": [
@@ -680,9 +702,11 @@
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.2.0",
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这次先说个要紧的：管理页里点「测试订阅并启动」「测速选最快节点」或者手动开代理，\nApp 会卡住十几秒然后自己退掉。查出来了 —— 等代理内核起来的那段是在主线程上死等，\n系统以为你卡死了，就把进程杀了。现在挪到后台去等，等多久界面都能动。\n这个改动在原生代码里，得装了这个新包才算修好。\n\n另外几处：\n\n下载不再弹那个进度窗了。点完底下冒一句「已开始下载」，进度去下载中心看。\n按钮上「下载并安装」也直接改成「下载」—— 反正下完还是自动装。\n\n「全部应用」用单列看的时候，应用图标一直是扁的（量了一下，46 宽 40 高）。\n现在强制正方形，顺带把单列卡片里一个一直存在的小溢出也修了。\n\n首页那排公告卡片去掉了，公告统一放在最上面轮播的最前几张，不用在两处看同一件事。\n\n权限那几项换了开关样式。给了权限就变灰锁住 —— 系统权限本来在 App 里也撤不掉，\n给个能点的开关只会让人以为关了有用。\n\n管理端软件页多了个「新添加」，只列出你还没过目的那些，看完可以一键标记。\n它只在管理页里，用户端的分类栏里不会多出这个东西。\n\n「关于」和侧边栏里砚中雪前面的图标换成了雪花。\n管理密码也不再明文写在代码里了，换成只存哈希。\n\n版本号从这一版起改用 1.2.0。旧版本以后只留上一版，方便回滚。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n这次先说个要紧的：管理页里点「测试订阅并启动」「测速选最快节点」或者手动开代理，\nApp 会卡住十几秒然后自己退掉。查出来了 —— 等代理内核起来的那段是在主线程上死等，\n系统以为你卡死了，就把进程杀了。现在挪到后台去等，等多久界面都能动。\n这个改动在原生代码里，得装了这个新包才算修好。\n\n另外几处：\n\n下载不再弹那个进度窗了。点完底下冒一句「已开始下载」，进度去下载中心看。\n按钮上「下载并安装」也直接改成「下载」—— 反正下完还是自动装。\n\n「全部应用」用单列看的时候，应用图标一直是扁的（量了一下，46 宽 40 高）。\n现在强制正方形，顺带把单列卡片里一个一直存在的小溢出也修了。\n\n首页那排公告卡片去掉了，公告统一放在最上面轮播的最前几张，不用在两处看同一件事。\n\n权限那几项换了开关样式。给了权限就变灰锁住 —— 系统权限本来在 App 里也撤不掉，\n给个能点的开关只会让人以为关了有用。\n\n管理端软件页多了个「新添加」，只列出你还没过目的那些，看完可以一键标记。\n它只在管理页里，用户端的分类栏里不会多出这个东西。\n\n「关于」和侧边栏里砚中雪前面的图标换成了雪花。\n管理密码也不再明文写在代码里了，换成只存哈希。\n\n版本号从这一版起改用 1.2.0。旧版本以后只留上一版，方便回滚。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.0/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
