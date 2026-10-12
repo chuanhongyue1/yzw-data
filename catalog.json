@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":86,
+ "dataVersion":87,
  "categories": [
   {
    "id": "office",
@@ -729,12 +729,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.2.5",
- "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n改的是「进 App 时那个更新检查」的打扰程度。\n\n以前有个烦人之处：数据版本比线上旧就会弹「发现更新」。你点过「稍后」，下次启动还会弹**同一个框** —— 因为数据没导进去，它就一直认为你落后。\n\n现在分清楚了：\n\n· **数据更新改成静默同步**。启动时发现线上数据更新，直接在你没察觉的时候同步好，不弹窗、不提示。\n· **没有新版本就什么都不做** —— 不弹窗、不弹提示、不发通知。\n· **只有 App 真的有新版本才弹窗**，而且同一个版本只提醒一次（点过「稍后」就不再重复弹同一个版本）。\n\n也就是说：进 App 它照旧在后台查一次，但你只有真的该升级时才会被打扰。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.5/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
+ "appLatestVersion":"1.2.6",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n修的是一件很别扭的事：软件明明装了新版，App 却一直说你是旧版、还反复催你更新。\n\n原因在于 App **只记得住「它自己帮你下载的那一版」**。你后来手动装了 v3.4，它根本不知道 —— 于是界面一直显示 v2.5，还把它当成「可更新」摆在那儿。\n\n现在改成**按包名问系统**：你实际装的是哪个版本，系统说了算。所以「下载中心 → 可更新」和详情页显示的版本号，以后都是手机里真实的版本，不会再有这种幽灵更新。\n\n顺便把「一触」的包名（com.chuan.pocket.tool）写进了目录，它才问得到。**以后新增软件我会尽量都带上包名**，带不了的就还是退回原来的记录方式。\n\n另外这一版把「一触」同步到了 3.5：它的作者仓库里那个 update.json 才是权威更新源，比猜版本标签可靠。以后你发新版，目录会自己跟上。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.6/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
