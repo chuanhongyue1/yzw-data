@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":97,
+    "dataVersion":98,
     "categories":  [
                        {
                            "id":  "office",
@@ -712,12 +712,10 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.3.2",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.2/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":  [
-                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
-                           ],
-    "appReleaseNotes":  "砚中雪 · 安卓软件下载与管理\n\n修一个**悄悄吃掉你几吉字节空间**的 bug：取消分卷下载时，已经下下来的分卷**一个都不会删**。\n\n先说清楚问题有多大：像蜡笔小新那种 2.3 GB 的分卷包，你下到一半点「取消」，界面上任务没了、看起来干净了，但**那些下了一半的分卷文件原封不动躺在磁盘上** —— 2.3 GB 空间就这么没了，而且在文件管理器里不一定认得出是什么。\n\n原因很小：分卷的临时文件叫 `xxx.apk.vol0`、`xxx.apk.vol1`……，而清理逻辑只认 `xxx.apk.part0` 和 `xxx.apk.resume` 这两种名字 —— **`.vol` 根本不在清理范围内**，所以一个都没删掉。现在补上了。\n\n顺带说明「取消」和「暂停」的区别（这两个行为是故意不同的）：\n\n· **暂停**：保住已下载的部分，之后可以从断点接着下\n· **取消**：连接掐断、已下载的临时文件**全部清掉**（取消前会问你一次，就是怕你误点）\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+    "appLatestVersion":"1.3.3",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.3/app-arm64-v8a-release.apk",
+    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+    "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版修上一版（1.3.2）我把首页搜索改坏的两处，外加一个更早埋下的毛病。\n\n**一、上版首页搜索打开后：页面变黑、文字多出下划线、分类被放得很大。**\n\n原因是我把「全部应用」这个页面**当成独立页面打开**了 —— 它平时是主界面里的一个标签页，外面套着背景和容器。单独打开时那些外壳全没了：没有背景就是黑的，缺少容器 Flutter 就会用下划线把文字标出来。现在按主界面的层次给它补齐了。\n\n**二、「全部应用」里两项之间莫名空出一大段。**\n\n这个更隐蔽：列表项没有按软件区分身份，Flutter 就按「位置」记状态。一个软件被搜没之后，它的「播完动画再移除」的回调挂到了另一个软件身上，于是永远不执行 —— 那一格就一直空在那里。现在按软件本身区分身份，空档和动画一起修好了。\n\n**三、顺带：上一版说过的惯性上移动画，因为同一个原因其实没生效。** 现在配上正确的身份区分，才会真的出现「冲上来撞一下再晃回去」的效果。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
     "installedVersions":  {
 
                           },
