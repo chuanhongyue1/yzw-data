@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":90,
+ "dataVersion":91,
  "categories": [
   {
    "id": "office",
@@ -729,12 +729,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.2.7",
- "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n这版修两个我自己上一版弄出来的问题，其中一个是严重事故。\n\n**平板/横屏整个界面白屏** —— 我重写左侧菜单时，给它加了「让子项铺满宽度」，但它在横向布局里拿到的宽度是**无限**的，一铺满就直接抛异常，整个界面渲染不出来。现在给菜单定死宽度，正常了。\n\n顺便说明：这个问题我是**写了一个宽屏渲染测试**抓出来的 —— 在 1280×800 下把整个界面渲染一遍，有异常测试直接失败。这比拿真机肉眼看可靠：真机只告诉你「白屏了」，测试能告诉你「哪一行抛了」。（这个测试已经留下来当回归守卫，以后平板布局再坏会立刻被拦下。）\n\n**首页切换单列/两列/三列没有动画** —— 我上一版是给每张卡片挂了个「播放标记」，切列数时标记变了就重播。但**同一位置的同类控件会被系统复用**，初始化那段代码根本不会再跑，所以标记变了也没用。现在补上了「控件更新时」的处理，切换列数真的会重新滑入了。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.7/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
+ "appLatestVersion":"1.2.8",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n首页切单列/两列/三列，修两个毛病。\n\n**一、只有第一次切换有动画，之后就变生硬了。**\n\n我上一版是给每张卡片挂「播放标记」，切列数时标记变了就重播。但标记那组是「两列」（默认值），**首次进首页时就已经播过一次并记进「已播」了** —— 你再切回两列，它就认为「播过了」直接到位。所以现象正好是「第一次有动画，后来没有」。现在改成：只要列数变了就一定重播。\n\n**二、切列数会被弹回顶部。**\n\n切列数会让「列表」和「网格」这两种布局互换，滚动位置会跟着丢掉。现在切换前先记下位置，切完再放回去 —— 你切列数时会停在原地，不再被扔回顶部。\n\n顺便：这个问题我加了回归测试锁住（切到新列数要重播、**切回已经播过的那组也必须重播**，两个断言都在），以后不会再反复。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.2.8/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
