@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":73,
+ "dataVersion":74,
  "categories": [
   {
    "id": "office",
@@ -686,6 +686,28 @@
      "fileSizeBytes": 690659,
      "fileType": "apk",
      "publishedAt": "2026-10-12"
+    }
+   ]
+  },
+  {
+   "id": "1791830000001",
+   "name": "蜡笔小新：煤炭镇的小白",
+   "categoryId": "game",
+   "description": "蜡笔小新剧场版改编的冒险游戏：小新和狗狗小白误入一座只有煤炭的小镇，白天帮镇上的人打零工、晚上下矿，慢慢挖出小镇的秘密，画风是手绘绘本那一路。注意这个包**只支持 arm64 手机**（现在的手机基本都是）；装完约 2.3 GB，下载会慢一些——App 会分 4 卷并行下，下完自动按顺序合并安装，不用你手动拼。建议连 Wi-Fi。",
+   "icon": "🎮",
+   "versions": [
+    {
+     "version": "1.0.0",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.001",
+     "altUrls": [
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.002",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.003",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/game-crayon-1.0.0/crayon-shinchan-1.0.0.apk.004"
+     ],
+     "fileType": "apk-parts",
+     "fileSizeBytes": 2410850308,
+     "publishedAt": "2026-10-12T12:25:01",
+     "releaseNotes": "首个收录版本（分卷 4 卷 · 共 2.3 GB）"
     }
    ]
   }
