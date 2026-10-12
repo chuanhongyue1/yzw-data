@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":50,
+ "dataVersion":52,
  "categories": [
   {
    "id": "office",
@@ -119,9 +119,10 @@
    "versions": [
     {
      "version": "2.14.5",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/MT-Manager-2.14.5.zip",
-     "fileType": "apk",
-     "releaseNotes": "改版 MT 管理器（clone-MOD-v6）。因 Gitee 会对裸 apk 做内容扫描并拒收，这里以 zip 形式分发，App 会自动解压后安装。"
+     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/mt-manager-2.14.5.zip",
+     "fileType": "zip",
+     "releaseNotes": "改版 MT 管理器（clone-MOD-v6）。因 Gitee 会对裸 apk 做内容扫描并拒收，这里以 zip 形式分发，App 会自动解压后安装。",
+     "fileSizeBytes": 25507153
     }
    ]
   },
@@ -142,7 +143,8 @@
     {
      "version": "1.9.0",
      "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/splitlanzou-1.9.0.apk",
-     "fileType": "apk"
+     "fileType": "apk",
+     "fileSizeBytes": 8662292
     }
    ]
   },
@@ -163,8 +165,9 @@
    "versions": [
     {
      "version": "13.0.1",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/Telegram-13.0.1.apk",
-     "fileType": "apk"
+     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/telegram-13.0.1.apk",
+     "fileType": "apk",
+     "fileSizeBytes": 69792526
     }
    ]
   },
@@ -188,7 +191,8 @@
     {
      "version": "2.9.71",
      "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/xinghai-2.9.71.apk",
-     "fileType": "apk"
+     "fileType": "apk",
+     "fileSizeBytes": 7594711
     }
    ]
   },
