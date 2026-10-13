@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":126,
+ "dataVersion":127,
  "categories": [
   {
    "id": "office",
@@ -1207,10 +1207,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.19",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.19/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.20",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.20/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n接着上一版的界面动效，这版把**按压反馈**铺到下载中心。\n\n**这套写法取自 Uiverse（uiverse-io/galaxy）的按钮组件** —— 它按下时的核心就是一句：\n\n```css\n.cta:active { transform: scale(0.95); }\n```\n\n手指按下去时缩一点点、松开弹回，点击就有了「实感」。它那个库是 CSS/Tailwind 写的，组件本身没法搬进 Flutter，但这条规律是通用的。\n\n**实现上我特意做成「能安全包住任何现成组件」的样子**：\n\n· 只**观察**指针按下/抬起，不注册手势 —— 所以卡片里原有的点击、长按都不受影响\n· 缩放走合成层变换，**不触发布局** —— 不掉帧\n\n也就是说，后面要给其它界面加这个反馈时，直接套一层就行，不用改它们原来的逻辑。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n设置页加上入场动效：卡片从下方轻微上滑淡入，一张接一张错开出现。\n\n**为什么下载中心和设置页要用不同的做法**（这点值得说一下）：\n\n· 下载中心是常驻标签页，而卡片上的进度每秒刷新好几次 —— 如果每次都重播入场，界面会一直在闪。所以那边按任务记「播过了」，只有新任务才入场。\n· 设置页是点进去的新页面，**每次进来都该重新入场一次** —— 所以那边不加这个记录。\n\n两种场合的需求正好相反，写反了就是「要么一直闪、要么再也看不到动画」。\n\n**顺带说明**：设置页的卡片其实早就有按压反馈了（手指按下会跟着触点做约 4° 的 3D 倾斜），这版没有动它。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
