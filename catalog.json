@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":118,
+ "dataVersion":119,
  "categories": [
   {
    "id": "office",
@@ -1109,7 +1109,8 @@
      "publishedAt": "2026-10-13T03:00:34",
      "releaseNotes": "首批收录 v3.28"
     }
-   ]
+   ],
+   "officialSite": "https://www.eivaagames.com"
   },
   {
    "id": "1791860434981",
