@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":116,
+ "dataVersion":117,
  "categories": [
   {
    "id": "office",
@@ -920,7 +920,8 @@
      "publishedAt": "2026-10-13T03:00:34",
      "releaseNotes": "首批收录 v1.28.0"
     }
-   ]
+   ],
+   "officialSite": "https://z.weixin.qq.com"
   },
   {
    "id": "1791860434971",
@@ -956,7 +957,8 @@
      "publishedAt": "2026-10-13T03:00:34",
      "releaseNotes": "首批收录 v6.3.1"
     }
-   ]
+   ],
+   "officialSite": "https://gamehub.xiaoji.com"
   },
   {
    "id": "1791860434973",
@@ -992,7 +994,8 @@
      "publishedAt": "2026-10-13T03:00:34",
      "releaseNotes": "首批收录 v5.46.0"
     }
-   ]
+   ],
+   "officialSite": "https://www.ghzs666.com"
   },
   {
    "id": "1791860434975",
@@ -1205,8 +1208,10 @@
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.3.12",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.12/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版解决「有些软件没有图标、也没有包名」。\n\n**为什么之前弄不出来**：现在很多 App 的图标是**自适应/矢量图标** —— APK 里根本没有图片，只有一段描述（比如 TikTok 的图标就是一段矢量路径）。在电脑上没法把它变成图片，试了几种办法，挑出来的全是通知栏背景、按钮素材这类无关的图。\n\n**现在的做法**：下载完一个软件后，**让安卓系统自己把图标渲染出来**（系统本来就负责显示图标，这是它的拿手好戏），顺便把包名一起读了。图标会存在本机，下次打开直接就有。\n\n**你能看到的变化**：\n\n· 下载过的软件，**图标会变成真正的应用图标**（之前是 📦 之类的占位符号）\n· 那些没有包名的软件（分卷包、压缩包），**装上之后也能正确判断有没有新版本**了 —— 以前问不到系统的版本号，只能靠 App 自己的下载记录，你手动装过新版它会不知道\n\n已经从安装包里直接抠出图标的 7 个软件（Star空间 / SuperImage Pro / 虫二上号器 / 吉里吉里2 / 奇异社区 / 台球 / 虚拟大师）不依赖这个改动，装上就有图标。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
+ "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n这版解决「有些软件没有图标、也没有包名」。\n\n**为什么之前弄不出来**：现在很多 App 的图标是**自适应/矢量图标** —— APK 里根本没有图片，只有一段描述（比如 TikTok 的图标就是一段矢量路径）。在电脑上没法把它变成图片，试了几种办法，挑出来的全是通知栏背景、按钮素材这类无关的图。\n\n**现在的做法**：下载完一个软件后，**让安卓系统自己把图标渲染出来**（系统本来就负责显示图标，这是它的拿手好戏），顺便把包名一起读了。图标会存在本机，下次打开直接就有。\n\n**你能看到的变化**：\n\n· 下载过的软件，**图标会变成真正的应用图标**（之前是 📦 之类的占位符号）\n· 那些没有包名的软件（分卷包、压缩包），**装上之后也能正确判断有没有新版本**了 —— 以前问不到系统的版本号，只能靠 App 自己的下载记录，你手动装过新版它会不知道\n\n已经从安装包里直接抠出图标的 7 个软件（Star空间 / SuperImage Pro / 虫二上号器 / 吉里吉里2 / 奇异社区 / 台球 / 虚拟大师）不依赖这个改动，装上就有图标。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
