@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":143,
+ "dataVersion":144,
  "categories": [
   {
    "id": "office",
@@ -869,7 +869,7 @@
      "version": "1.7.5",
      "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/SuperImage.Pro_1.7.5.apk",
      "releaseNotes": "首批收录 v1.7.5",
-     "fileSizeBytes": 161061274,
+     "fileSizeBytes": 161026790,
      "fileType": "apk",
      "publishedAt": "2026-10-13T03:00:34",
      "altUrls": []
@@ -891,7 +891,7 @@
      "version": "47.0.5",
      "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/TikTok_47.0.5.apk",
      "releaseNotes": "首批收录 v47.0.5",
-     "fileSizeBytes": 398983168,
+     "fileSizeBytes": 398997561,
      "fileType": "apk",
      "publishedAt": "2026-10-13T03:00:34",
      "altUrls": []
