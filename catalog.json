@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":123,
+ "dataVersion":124,
  "categories": [
   {
    "id": "office",
@@ -1207,10 +1207,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.16",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.16/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.17",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.17/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n修「下载到 99% 就变得非常慢」。\n\n**真相是这个阶段本来就重，但程序没告诉你它在干什么。**\n\n分卷包（比如 2.3 GB 的那些）下完之后要把所有分卷拼成一个安装包 —— 这一趟要读 2.3 GB、写 2.3 GB，还要把 26 个分卷逐个删掉。而整个过程里界面**一次都没有更新**，进度条就冻在 99% 一动不动，看起来像卡死了。\n\n现在会显示「正在合并分卷… (3/26)」并逐个往前走，你能看到它确实在干活。\n\n**要说清楚**：合并本身的时间没变（那是真实的磁盘读写），变的是**你终于能看到它在做什么** —— 不用再怀疑是不是卡死了。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n**一、后台保活：切出去再回来不再「重置」。**\n\n你反馈说侧滑回桌面再进来，应用状态会被强制刷新。查下来**不是程序在刷新** —— 是进程被系统杀掉了，再进来等于冷启动。\n\n安卓上没有后台服务就压不住这件事（HyperOS 尤其激进）。**不加常驻通知的前提下**，最有效的办法是把本应用加入「不受电池优化限制」白名单。这版会在你第一次打开时弹一次系统询问；**你拒绝过就不会再弹**。\n\n如果你希望更彻底（要常驻一条通知换更稳的保活），告诉我，我再加。\n\n**二、续传的文件长度校验。**\n\n断点续传之前会直接把手上的数据追加到半截文件后面。万一服务器忽略了范围请求、把整个文件发回来，拼出来的安装包就是坏的 —— 而且要等到安装时才暴露。现在追加之前会先核对拿到的字节数，对不上就报错重来，绝不拼坏文件。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
