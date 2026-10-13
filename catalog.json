@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":141,
+ "dataVersion":142,
  "categories": [
   {
    "id": "office",
@@ -869,14 +869,12 @@
    "versions": [
     {
      "version": "1.7.5",
-     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/superimage-1.7.5.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/SuperImage.Pro_1.7.5.apk",
      "releaseNotes": "首批收录 v1.7.5",
-     "fileSizeBytes": 161026790,
-     "fileType": "apk-parts",
+     "fileSizeBytes": 161061274,
+     "fileType": "apk",
      "publishedAt": "2026-10-13T03:00:34",
-     "altUrls": [
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/superimage-1.7.5.apk.002"
-     ]
+     "altUrls": []
     }
    ]
   },
@@ -893,17 +891,12 @@
    "versions": [
     {
      "version": "47.0.5",
-     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/tiktok-47.0.5.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/TikTok_47.0.5.apk",
      "releaseNotes": "首批收录 v47.0.5",
-     "fileSizeBytes": 398997561,
-     "fileType": "apk-parts",
+     "fileSizeBytes": 398983168,
+     "fileType": "apk",
      "publishedAt": "2026-10-13T03:00:34",
-     "altUrls": [
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/tiktok-47.0.5.apk.002",
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/tiktok-47.0.5.apk.003",
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/tiktok-47.0.5.apk.004",
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/tiktok-47.0.5.apk.005"
-     ]
+     "altUrls": []
     }
    ]
   },
