@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":114,
+ "dataVersion":115,
  "categories": [
   {
    "id": "office",
@@ -674,7 +674,8 @@
      "fileSizeBytes": 251283052
     }
    ],
-   "packageName": "com.dragon.read"
+   "packageName": "com.dragon.read",
+   "officialSite": "https://fanqienovel.com"
   },
   {
    "id": "1791804590381",
@@ -1009,7 +1010,8 @@
      "publishedAt": "2026-10-13T03:00:34",
      "releaseNotes": "首批收录 v4.9"
     }
-   ]
+   ],
+   "officialSite": "https://github.com/LSPosed/CorePatch"
   },
   {
    "id": "1791860434976",
@@ -1186,7 +1188,8 @@
      "publishedAt": "2026-10-13T03:00:34",
      "releaseNotes": "首批收录 v1.4.7r56"
     }
-   ]
+   ],
+   "officialSite": "https://github.com/xjunz/AutoTask"
   }
  ],
  "announcements": [
