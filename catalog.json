@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":124,
+ "dataVersion":125,
  "categories": [
   {
    "id": "office",
@@ -1207,10 +1207,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.17",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.17/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.18",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.18/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n**一、后台保活：切出去再回来不再「重置」。**\n\n你反馈说侧滑回桌面再进来，应用状态会被强制刷新。查下来**不是程序在刷新** —— 是进程被系统杀掉了，再进来等于冷启动。\n\n安卓上没有后台服务就压不住这件事（HyperOS 尤其激进）。**不加常驻通知的前提下**，最有效的办法是把本应用加入「不受电池优化限制」白名单。这版会在你第一次打开时弹一次系统询问；**你拒绝过就不会再弹**。\n\n如果你希望更彻底（要常驻一条通知换更稳的保活），告诉我，我再加。\n\n**二、续传的文件长度校验。**\n\n断点续传之前会直接把手上的数据追加到半截文件后面。万一服务器忽略了范围请求、把整个文件发回来，拼出来的安装包就是坏的 —— 而且要等到安装时才暴露。现在追加之前会先核对拿到的字节数，对不上就报错重来，绝不拼坏文件。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n按计划给界面补动效 —— 这版从「下载中心」开始（它原来是**完全没有动效**的，而你看它的时间最长）。\n\n现在每个任务卡片会**从下方轻微上滑 + 淡入**，一张接一张错开出现。\n\n**关于流畅度，说明我怎么保证的**：\n\n· 位移只用**合成层变换**（transform）和透明度，**不触发布局** —— 这是不掉帧的关键\n· 卡片上的进度每秒会刷新好几次，而这些刷新**不会重播入场动画**（按任务标识记了「播过了」）\n· 所以：下载在跑的时候，进度条照常刷新，动画不会被搅乱、也不会因为反复重播而闪\n\n**新出现的任务才会播一次入场** —— 这正是想要的效果：有新东西时你能立刻注意到。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
