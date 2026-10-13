@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":142,
+ "dataVersion":143,
  "categories": [
   {
    "id": "office",
@@ -615,13 +615,11 @@
    "versions": [
     {
      "version": "1.0.8",
-     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/lanerc-1.0.8.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/lanerc-1.0.8.apk",
      "releaseNotes": "首个收录版本（分卷 2 卷）",
      "fileSizeBytes": 105357759,
-     "fileType": "apk-parts",
-     "altUrls": [
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/lanerc-1.0.8.apk.002"
-     ]
+     "fileType": "apk",
+     "altUrls": []
     }
    ]
   },
