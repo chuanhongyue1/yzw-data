@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":133,
+ "dataVersion":134,
  "categories": [
   {
    "id": "office",
@@ -1209,8 +1209,10 @@
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.3.28",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.28/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n**「其他设置」这一页现在是两个并列板块：**\n\n```\n其他设置（这一页）\n├─ 个性化设置    界面风格 / 文字大小 / 暗黑模式 / 背景图 / 图标\n└─ 其他设置      渲染 / 公告 / 权限 / 下载 / 存储\n```\n\n之前是把个性化设置的内容直接平铺进去，没有第二个板块的标题 —— 看起来像是「其他设置里面又套了一个其他设置」，层次不清。现在两块各有各的标题，从上往下读完就清楚了。\n\n**另外这版还包含**：\n\n· 字号滑动时**平滑变化**（之前是一格一格跳）\n· 右下角改成**「应用」按钮**，按下去的三段式和下载按钮完全一致\n· 删掉了一个已经没人用的组件文件\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
+ "appReleaseNotes": "本次更新：\n\n· 其他设置改为两个板块：个性化设置、其他设置\n· 文字大小滑动改为平滑变化\n· 文字大小的确认改为椭圆「应用」按钮，点击为三段式动效\n· 个性化设置并入其他设置\n\n本次移除：\n\n· 已废弃的勾选组件\n\n历史版本：\n\n· 字号档位增至 30 档（84%~200%）\n· 新增硬件加速开关（默认开启）\n· 修复 GitHub 软件无法下载的问题\n· 下载失败自动重试\n· 分卷合并显示进度\n· 各界面补齐入场动效",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
