@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":147,
+ "dataVersion":148,
  "categories": [
   {
    "id": "office",
@@ -1232,10 +1232,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.32",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.32/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.33",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.33/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"本次更新：\n\n· 一键识别本机图标：新增 Shizuku 通道（手机隐藏了 root 时用它）\n· 三条通道（普通查询 / root / Shizuku）结果合并，谁能扫到就用谁\n· 只有一条都没扫到时才请求 Shizuku 授权，不会每次弹框\n\n本次移除：\n\n· 无",
+ "appReleaseNotes":"本次更新：\n\n· 更新应用版本，用于验证应用更新流程\n\n本次移除：\n\n· 无",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
