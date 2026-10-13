@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":107,
+ "dataVersion":108,
  "categories": [
   {
    "id": "office",
@@ -640,11 +640,11 @@
    "versions": [
     {
      "version": "1.1.77",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/omofun-1.1.77.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/omofun-1.1.77.apk.001",
      "releaseNotes": "首个收录版本（分卷 2 卷）",
      "fileType": "apk-parts",
      "altUrls": [
-      "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/omofun-1.1.77.apk.002"
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/omofun-1.1.77.apk.002"
      ],
      "fileSizeBytes": 148172538
     }
@@ -662,12 +662,12 @@
    "versions": [
     {
      "version": "7.3.9.32",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/fanqie-novel-7.3.9.32.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/fanqie-novel-7.3.9.32.apk.001",
      "releaseNotes": "首个收录版本（分卷 3 卷）",
      "fileType": "apk-parts",
      "altUrls": [
-      "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/fanqie-novel-7.3.9.32.apk.002",
-      "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/fanqie-novel-7.3.9.32.apk.003"
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/fanqie-novel-7.3.9.32.apk.002",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/fanqie-novel-7.3.9.32.apk.003"
      ],
      "fileSizeBytes": 251283052
     }
