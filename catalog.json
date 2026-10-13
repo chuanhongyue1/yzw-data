@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":109,
+ "dataVersion":110,
  "categories": [
   {
    "id": "office",
@@ -701,7 +701,7 @@
    "id": "1791830000001",
    "name": "蜡笔小新：煤炭镇的小白",
    "categoryId": "game",
-   "description": "（光环助手里面的 如果这里等不及的话 请前往那里下载）蜡笔小新剧场版改编的冒险游戏：小新和狗狗小白误入一座只有煤炭的小镇，白天帮镇上的人打零工、晚上下矿，慢慢挖出小镇的秘密，画风是手绘绘本那一路。注意这个包**只支持 arm64 手机**（现在的手机基本都是）；装完约 2.3 GB，下载会慢一些——App 会分 4 卷并行下，下完自动按顺序合并安装，不用你手动拼。建议连 Wi-Fi。",
+   "description": "（光环助手里面的 如果这里等不及的话 请前往那里下载）蜡笔小新剧场版改编的冒险游戏：小新和狗狗小白误入一座只有煤炭的小镇，白天帮镇上的人打零工、晚上下矿，慢慢挖出小镇的秘密，画风是手绘绘本那一路。注意这个包只支持 arm64 手机（现在的手机基本都是）；装完约 2.3 GB，下载会慢一些——App 会分 4 卷并行下，下完自动按顺序合并安装，不用你手动拼。建议连 Wi-Fi。",
    "icon": "🎮",
    "recommended": false,
    "pinned": false,
@@ -805,7 +805,7 @@
    "name": "SSW MOD",
    "categoryId": "game",
    "packageName": "ssw.sky.mod",
-   "description": "改版包。\n\n**本包是改版**；下方官网链接指向官方版，不是这个包的来源。",
+   "description": "改版包。\n\n（本包是改版；下方官网链接指向官方版，不是这个包的来源。）",
    "icon": "📦",
    "versions": [
     {
@@ -841,7 +841,7 @@
    "name": "SuperImage Pro",
    "categoryId": "design",
    "packageName": "com.zhenxiang.superimage.pro",
-   "description": "本地图片无损放大，走设备 GPU，不联网。\n\n**本包是改版**；下方官网链接指向官方版，不是这个包的来源。",
+   "description": "本地图片无损放大，走设备 GPU，不联网。\n\n（本包是改版；下方官网链接指向官方版，不是这个包的来源。）",
    "icon": "📦",
    "versions": [
     {
@@ -862,7 +862,7 @@
    "name": "TikTok",
    "categoryId": "media",
    "packageName": "com.zhiliaoapp.musically",
-   "description": "国际版抖音。\n\n**本包是改版**；下方官网链接指向官方版，不是这个包的来源。",
+   "description": "国际版抖音。\n\n（本包是改版；下方官网链接指向官方版，不是这个包的来源。）",
    "icon": "📦",
    "versions": [
     {
@@ -905,7 +905,7 @@
    "name": "WeType 美化",
    "categoryId": "system",
    "packageName": "com.xposed.wetypehook",
-   "description": "微信输入法的美化模块。\n\n**本包是改版**；下方官网链接指向官方版，不是这个包的来源。",
+   "description": "微信输入法的美化模块。\n\n（本包是改版；下方官网链接指向官方版，不是这个包的来源。）",
    "icon": "📦",
    "versions": [
     {
@@ -923,7 +923,7 @@
    "name": "虫二上号器",
    "categoryId": "game",
    "packageName": "com.tencent.tim",
-   "description": "游戏账号切换工具。\n\n**本包是改版**；下方官网链接指向官方版，不是这个包的来源。",
+   "description": "游戏账号切换工具。\n\n（本包是改版；下方官网链接指向官方版，不是这个包的来源。）",
    "icon": "📦",
    "versions": [
     {
@@ -1032,7 +1032,7 @@
    "name": "酷狗概念版",
    "categoryId": "media",
    "packageName": "com.kugou.android.lite",
-   "description": "酷狗的轻量版。\n\n**本包是改版**；下方官网链接指向官方版，不是这个包的来源。",
+   "description": "酷狗的轻量版。\n\n（本包是改版；下方官网链接指向官方版，不是这个包的来源。）",
    "officialSite": "https://www.kugou.com",
    "icon": "📦",
    "versions": [
@@ -1108,7 +1108,7 @@
    "name": "虚拟大师",
    "categoryId": "system",
    "packageName": "com.clone.android.dual.space",
-   "description": "安卓上的虚拟手机，可再跑一个独立系统。\n\n**本包是改版**；下方官网链接指向官方版，不是这个包的来源。",
+   "description": "安卓上的虚拟手机，可再跑一个独立系统。\n\n（本包是改版；下方官网链接指向官方版，不是这个包的来源。）",
    "officialSite": "https://www.vmos.cn",
    "icon": "📦",
    "versions": [
@@ -1199,8 +1199,10 @@
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.3.10",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.10/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版修一个大文件下载时最恼人的失败：**空间不足会等到「全下完了」才报错**。\n\n分卷包（比如 2.3 GB 的那些）下完之后要拼成一个文件。以前是**全部拼完再统一删分卷**，所以中途磁盘上同时躺着「成品 + 全部分卷」—— 峰值是体积的 **2 倍**，2.3 GB 的包要 4.6 GB 空闲。空间紧张时，你等了半天，最后一步才失败。\n\n现在改成**拼完一卷立刻删一卷**，峰值降到「成品 + 一卷（约 90 MB）」。同样的包，需要的空闲空间从 4.6 GB 降到约 2.4 GB。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
+ "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n这版修一个大文件下载时最恼人的失败：**空间不足会等到「全下完了」才报错**。\n\n分卷包（比如 2.3 GB 的那些）下完之后要拼成一个文件。以前是**全部拼完再统一删分卷**，所以中途磁盘上同时躺着「成品 + 全部分卷」—— 峰值是体积的 **2 倍**，2.3 GB 的包要 4.6 GB 空闲。空间紧张时，你等了半天，最后一步才失败。\n\n现在改成**拼完一卷立刻删一卷**，峰值降到「成品 + 一卷（约 90 MB）」。同样的包，需要的空闲空间从 4.6 GB 降到约 2.4 GB。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
