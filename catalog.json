@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":127,
+ "dataVersion":128,
  "categories": [
   {
    "id": "office",
@@ -1207,10 +1207,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.20",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.20/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.21",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.21/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n设置页加上入场动效：卡片从下方轻微上滑淡入，一张接一张错开出现。\n\n**为什么下载中心和设置页要用不同的做法**（这点值得说一下）：\n\n· 下载中心是常驻标签页，而卡片上的进度每秒刷新好几次 —— 如果每次都重播入场，界面会一直在闪。所以那边按任务记「播过了」，只有新任务才入场。\n· 设置页是点进去的新页面，**每次进来都该重新入场一次** —— 所以那边不加这个记录。\n\n两种场合的需求正好相反，写反了就是「要么一直闪、要么再也看不到动画」。\n\n**顺带说明**：设置页的卡片其实早就有按压反馈了（手指按下会跟着触点做约 4° 的 3D 倾斜），这版没有动它。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n**这一版一次性装了 4 个界面的动效改动**（以前我会拆成 4 个版本发，那样你得装 4 次、还白传几百兆）。\n\n改动的界面：\n\n· **其他设置** —— 卡片依次上滑淡入\n· **个性化设置** —— 同上（这些页面里卡片多，错开出现看着更顺）\n· **软件详情** —— 内容分层出现，先标题后正文\n· **软件编辑** —— 表单区块依次出现\n\n**做法说明**：每个界面里只有分区标题不动，其余卡片逐个错开。\n\n标题不参与是有意的 —— 标题跟着一起动会显得整页在「飘」，而标题静静待着、卡片依次上来，层次反而更清楚。\n\n**性能上没有取巧**：\n\n是**逐项各包一层**，而不是把整个列表包一层。后者会生成一个全屏合成层，反而更容易掉帧 —— 省事但不能这么做。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
