@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":115,
+ "dataVersion":116,
  "categories": [
   {
    "id": "office",
@@ -1203,12 +1203,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.11",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.11/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
- "appReleaseNotes": "砚中雪 · 安卓软件下载与管理\n\n修「同一张背景图会在存储里存很多份」。\n\n选背景图的时候，程序会把图片复制一份存起来（这样原图删了背景也还在）。但文件名用的是**时间戳**，所以同一张照片每选一次就多存一份 —— 给好几个软件都用同一张图，就会堆出一串一模一样的文件，白占空间。\n\n现在改成**按图片内容命名**：同一张图永远对应同一个文件名，已经存过就直接复用、不再写第二份。你选多少次、给多少个软件用，存储里都只有一份。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appLatestVersion":"1.3.12",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.12/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n这版解决「有些软件没有图标、也没有包名」。\n\n**为什么之前弄不出来**：现在很多 App 的图标是**自适应/矢量图标** —— APK 里根本没有图片，只有一段描述（比如 TikTok 的图标就是一段矢量路径）。在电脑上没法把它变成图片，试了几种办法，挑出来的全是通知栏背景、按钮素材这类无关的图。\n\n**现在的做法**：下载完一个软件后，**让安卓系统自己把图标渲染出来**（系统本来就负责显示图标，这是它的拿手好戏），顺便把包名一起读了。图标会存在本机，下次打开直接就有。\n\n**你能看到的变化**：\n\n· 下载过的软件，**图标会变成真正的应用图标**（之前是 📦 之类的占位符号）\n· 那些没有包名的软件（分卷包、压缩包），**装上之后也能正确判断有没有新版本**了 —— 以前问不到系统的版本号，只能靠 App 自己的下载记录，你手动装过新版它会不知道\n\n已经从安装包里直接抠出图标的 7 个软件（Star空间 / SuperImage Pro / 虫二上号器 / 吉里吉里2 / 奇异社区 / 台球 / 虚拟大师）不依赖这个改动，装上就有图标。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
