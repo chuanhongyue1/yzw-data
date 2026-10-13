@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":139,
+ "dataVersion":140,
  "categories": [
   {
    "id": "office",
@@ -1213,7 +1213,8 @@
       "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/virtualmaster-3.2.59.apk.024",
       "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/virtualmaster-3.2.59.apk.025",
       "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/virtualmaster-3.2.59.apk.026"
-     ]
+     ],
+     "size": "2.24 GB"
     }
    ]
   },
