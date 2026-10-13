@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":145,
+ "dataVersion":146,
  "categories": [
   {
    "id": "office",
@@ -638,13 +638,11 @@
    "versions": [
     {
      "version": "1.1.77",
-     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/omofun-1.1.77.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/omofun-1.1.77.apk",
      "releaseNotes": "首个收录版本（分卷 2 卷）",
      "fileSizeBytes": 148172538,
-     "fileType": "apk-parts",
-     "altUrls": [
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/omofun-1.1.77.apk.002"
-     ]
+     "fileType": "apk",
+     "altUrls": []
     }
    ]
   },
@@ -662,14 +660,11 @@
    "versions": [
     {
      "version": "7.3.9.32",
-     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/fanqie-novel-7.3.9.32.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/fanqie-novel-7.3.9.32.apk",
      "releaseNotes": "首个收录版本（分卷 3 卷）",
      "fileSizeBytes": 251283052,
-     "fileType": "apk-parts",
-     "altUrls": [
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/fanqie-novel-7.3.9.32.apk.002",
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/fanqie-novel-7.3.9.32.apk.003"
-     ]
+     "fileType": "apk",
+     "altUrls": []
     }
    ]
   },
@@ -1084,14 +1079,12 @@
    "versions": [
     {
      "version": "5.2.1",
-     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/kugou-lite-5.2.1.apk.001",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/kugou-lite-5.2.1.apk",
      "releaseNotes": "首批收录 v5.2.1",
      "fileSizeBytes": 158944518,
-     "fileType": "apk-parts",
+     "fileType": "apk",
      "publishedAt": "2026-10-13T03:00:34",
-     "altUrls": [
-      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/kugou-lite-5.2.1.apk.002"
-     ]
+     "altUrls": []
     }
    ]
   },
@@ -1241,8 +1234,10 @@
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.3.31",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.31/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"本次更新：\n\n· 搜索/全部应用：多列时入场改为从右侧滑入（之前会先掉下去、再升上来）\n\n本次移除：\n\n· 无",
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
+ "appReleaseNotes": "本次更新：\n\n· 搜索/全部应用：多列时入场改为从右侧滑入（之前会先掉下去、再升上来）\n\n本次移除：\n\n· 无",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
