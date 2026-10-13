@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":128,
+ "dataVersion":129,
  "categories": [
   {
    "id": "office",
@@ -1207,10 +1207,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.21",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.21/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.22",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.22/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n**这一版一次性装了 4 个界面的动效改动**（以前我会拆成 4 个版本发，那样你得装 4 次、还白传几百兆）。\n\n改动的界面：\n\n· **其他设置** —— 卡片依次上滑淡入\n· **个性化设置** —— 同上（这些页面里卡片多，错开出现看着更顺）\n· **软件详情** —— 内容分层出现，先标题后正文\n· **软件编辑** —— 表单区块依次出现\n\n**做法说明**：每个界面里只有分区标题不动，其余卡片逐个错开。\n\n标题不参与是有意的 —— 标题跟着一起动会显得整页在「飘」，而标题静静待着、卡片依次上来，层次反而更清楚。\n\n**性能上没有取巧**：\n\n是**逐项各包一层**，而不是把整个列表包一层。后者会生成一个全屏合成层，反而更容易掉帧 —— 省事但不能这么做。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n「全部应用」补上入场动效 —— 至此**每个界面都有了**。\n\n**这一处和前面几个界面做法不同，原因是相反的**：\n\n· 设置页那几个是「点进去的新页面」，每次进来都该重新入场一次 → **不加记录**\n· 全部应用是个网格，**滚动时会把看不见的卡片回收、滚回来再重建** → 如果不记「播过了」，每次滚回来都要重播一遍，那就不像入场、**像闪烁**\n\n所以这里按软件各记一次：每张卡片在一个会话里只入场一次。\n\n**和已有动效的配合**（这个界面原本就有三层动画）：\n\n· 重排上移（上面卡片被搜没之后，下面平滑补位）\n· 换列数时沿弧线飞过去\n· 搜索时的碎裂消失\n\n新加的入场只是把卡片包了一层，**这三层都不受影响** —— 位移和透明度是叠加的，不会互相打架。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
