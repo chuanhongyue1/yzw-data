@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":111,
+ "dataVersion":112,
  "categories": [
   {
    "id": "office",
@@ -776,7 +776,7 @@
    "versions": [
     {
      "version": "zygisk-ef24bc68",
-     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/undefined",
+     "downloadUrl": "https://gitee.com/dfsdfs1/yzw-files/releases/download/files/hma-oss-ef24bc68.apk",
      "fileType": "apk",
      "fileSizeBytes": 3559546,
      "publishedAt": "2026-10-13T03:00:34",
