@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":122,
+ "dataVersion":123,
  "categories": [
   {
    "id": "office",
@@ -1207,10 +1207,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.15",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.15/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.16",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.16/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n接着上一版，把「下载失败」的**另一半**原因也修了。\n\n上一版修的是「用错了网络通道」；这一版修的是**没有重试**：\n\n**一、单连接下载一次失败就把整个任务判死。**\n\n这是 GitHub 大文件真正走的路径。对分卷包尤其致命 —— 26 卷的包，任何一卷碰上网络抖一下，前面辛辛苦苦下好的全都白费。现在失败后会退避重试两轮；用户主动取消则不会重试。\n\n**二、代理偶尔启动失败就立刻报错。**\n\n内核偶尔会启动失败（端口没退干净、上一次刚被系统杀掉）。以前遇到就马上告诉用户「代理没能启动」，等于白失败一次。现在会先重试一次 —— 代价只有两秒。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n修「下载到 99% 就变得非常慢」。\n\n**真相是这个阶段本来就重，但程序没告诉你它在干什么。**\n\n分卷包（比如 2.3 GB 的那些）下完之后要把所有分卷拼成一个安装包 —— 这一趟要读 2.3 GB、写 2.3 GB，还要把 26 个分卷逐个删掉。而整个过程里界面**一次都没有更新**，进度条就冻在 99% 一动不动，看起来像卡死了。\n\n现在会显示「正在合并分卷… (3/26)」并逐个往前走，你能看到它确实在干活。\n\n**要说清楚**：合并本身的时间没变（那是真实的磁盘读写），变的是**你终于能看到它在做什么** —— 不用再怀疑是不是卡死了。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
