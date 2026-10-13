@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":104,
+    "dataVersion":105,
     "categories":  [
                        {
                            "id":  "office",
@@ -712,10 +712,10 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.3.7",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.7/app-arm64-v8a-release.apk",
+    "appLatestVersion":"1.3.8",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.8/app-arm64-v8a-release.apk",
     "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
-    "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n两个毛病，一个是逻辑错，一个是手感问题。\n\n**一、手机上装的是新版，App 却提示你更新到旧版。**\n\n判断「要不要更新」用的是「已装版本 ≠ 目录版本」。所以当你手机上装的比目录里还新（比如你自己手动装了新版，而目录还写着旧版本号），它照样把这软件列进「可更新」—— 点进去还是「更新」到一个更低的版本号。现在改成**只比大小**：只有目录版本**更高**才提示，低了或持平都不打扰你。\n\n**二、上移有时候会一段一段地卡。**\n\n原因是我让每个被粉碎的软件都各自触发一次重排。连着两三个粉碎完的时候，列表在极短时间内被重排好几次，正在上移的软件就被打断重播了，看起来一顿一顿的。现在**攒成一次**再移除，整列只重排一次。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+    "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n修一个「点下去就再也不动」的下载死结。\n\n现象是：下载蜡笔小新这类分卷包时，界面一直停在「正在连接」，百分比一动不动，代理其实已经起来了，但一个字节都没下下来。\n\n原因出在**下载开始之前**的那一步：程序要先问服务器「每一卷多大」。这个询问在 8 卷的包上就是**连续 8 次请求**，而且**没有设置超时**。走内置代理拉 GitHub 的时候，这种询问会被卡住不返回 —— 于是后面的下载根本没能开始，界面就一直停在「正在连接」。\n\n而且这一步本来就多余：目录里已经记着整个包的准确大小了，后一行会把询问结果整个覆盖掉。现在**只要有权威大小就直接跳过询问**，不再白等；同时给询问本身加了超时兜底（8 秒），万一真要问也不会卡死。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
     "installedVersions":  {
 
                           },
