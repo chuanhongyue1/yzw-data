@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":134,
+ "dataVersion":135,
  "categories": [
   {
    "id": "office",
@@ -1207,12 +1207,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.28",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.28/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
- "appReleaseNotes": "本次更新：\n\n· 其他设置改为两个板块：个性化设置、其他设置\n· 文字大小滑动改为平滑变化\n· 文字大小的确认改为椭圆「应用」按钮，点击为三段式动效\n· 个性化设置并入其他设置\n\n本次移除：\n\n· 已废弃的勾选组件\n\n历史版本：\n\n· 字号档位增至 30 档（84%~200%）\n· 新增硬件加速开关（默认开启）\n· 修复 GitHub 软件无法下载的问题\n· 下载失败自动重试\n· 分卷合并显示进度\n· 各界面补齐入场动效",
+ "appLatestVersion":"1.3.29",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.29/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+ "appReleaseNotes":"本次更新：\n\n· 字号范围改为 70% ~ 150%，每 5% 一档（共 17 档）\n· 字号上限从 200% 下调到 150%，下限从 84% 下调到 70%\n\n本次移除：\n\n· 无",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
