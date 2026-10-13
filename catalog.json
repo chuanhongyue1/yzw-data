@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":130,
+ "dataVersion":131,
  "categories": [
   {
    "id": "office",
@@ -1207,10 +1207,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.25",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.25/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.26",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.26/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n**这一版把上两次没发出去的东西一起带上：字号刻度尺 + 硬件加速开关。**\n\n**字号**：从 4 档变成 30 档（84% ~ 200%，每档差 4%），改成横向刻度尺 ——\n左右滑动挑选，当前档居中高亮、两侧渐隐，滑动时上面的示例文字（中文 + 英文）实时跟着变，\n松手自动吸附到最近一档；定下来后右下角出现一个勾，**勾上才真正应用到整个界面**。\n那个勾是三段式动画：先画左半边、再画右半边，最后轻弹并扩散一圈光晕。\n\n**硬件加速**：「其他设置」里有开关，**默认打开**。关掉会退化成纯 CPU 渲染（会明显变卡），\n只在页面花屏、空白这类显示异常时才需要关。改完重启 App 生效。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
+ "appReleaseNotes":"砚中雪 · 安卓软件下载与管理\n\n**「个性化设置」合并进「其他设置」** —— 设置页现在只有一个入口。\n\n以前界面风格、文字大小、暗黑模式在「个性化设置」，权限、下载、存储、渲染在「其他设置」，同类的东西分在两处，得先猜哪个在哪儿。\n\n现在点进「其他设置」，界面相关的部分就在最上面，往下依次是渲染、公告、权限、下载、存储 —— 一页看完。\n\n**实现上有个必须处理的细节**：内嵌进来的部分原本是一个独立页面（带自己的标题栏和背景），直接塞进列表里会出现「列表套列表」的嵌套滚动 —— 手指一滑就会两边抢。所以内嵌模式下它改成不带标题栏、不带背景、也用普通纵向排列，滚动统一交给外面的页面。\n\n—— 说明 ——\n\nApp 里的「检查更新」走 GitHub Pages；这里用于手动下载和版本归档。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
