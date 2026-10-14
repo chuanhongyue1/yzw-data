@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":151,
+ "dataVersion":152,
  "categories": [
   {
    "id": "office",
@@ -687,7 +687,7 @@
      "version": "无限",
      "downloadUrl": "https://gitee.com/dfsdfs1/zidongdianjiqi/releases/download/latest/qingdian.apk",
      "releaseNotes": "1. 修白底 bug：弹窗式界面卡片外面那圈以前是白的。根因是「弹窗主题」只覆盖了 windowBackground，漏了 android:colorBackground —— 父主题把它设成了 #B8F6F7FB（接近白色的半透明）。现在两个都置透明，并且在代码层（新的 FloatActivity 基类）再兜一次底，...",
-     "fileSizeBytes": 842477,
+     "fileSizeBytes": 876309,
      "fileType": "apk"
     }
    ]
