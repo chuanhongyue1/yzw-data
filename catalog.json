@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":158,
+ "dataVersion":159,
  "categories": [
   {
    "id": "office",
@@ -1383,10 +1383,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.38",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.38/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.39",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.39/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.3.38 更新说明\n\n【更新】\n- 本地保存的敏感配置改用更强的加密方式（界面没有任何变化）\n- 精简了少量内部代码\n\n【移除】\n- 无",
+ "appReleaseNotes":"v1.3.39 更新说明\n\n【修复】\n- 「全部应用」页第一次搜索时，被筛掉的软件现在也会播放粉碎动画（以前第一次搜索没有动画，软件直接就消失了）\n- 「全部应用」页多列显示时搜索，结果不再先掉到第一列下方再升上来，现在按它原来的格子位置平滑移动到位\n\n【移除】\n- 无",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
