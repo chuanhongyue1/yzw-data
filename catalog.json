@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":156,
+ "dataVersion":157,
  "categories": [
   {
    "id": "office",
@@ -1383,10 +1383,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.36",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.36/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.37",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.37/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.3.36 更新说明\n\n【更新】\n- 落地统一设计令牌：间距（AppSpace）、圆角（AppRadius）、透明度（AppAlpha）集中管理，界面风格更统一\n- 统一各页面圆角与字号，修复几处不一致数值（分类标签圆角、首页大卡圆角、若干字号）\n- 新增《设计规范》文档，约束后续界面开发\n\n【移除】\n- 移除设计令牌文件中的多余无用 import\n- 经全量静态检查，项目无被注释的遗留代码、无孤立文件，无可移除的无用代码",
+ "appReleaseNotes":"v1.3.37 更新说明\n\n【更新】\n- 名言库从 230 条扩充到 1230 条（新增 1000 条）：中国古典、中国现当代与现代诗、外国文学诗歌、哲学思想、科学励志五类，逐条标注作者\n- 界面升级为液态玻璃：卡片边缘按法线折射背后的画面，棱边有红蓝彩边，左上角有镜面高光，玻璃材质真正坐落在背景画面上\n- 背景的渐变与光斑抽成一份共用数据，屏幕背景和玻璃的折射取样完全对齐，不会出现折射错位\n- 「怎么实现的」说明文字与真实实现同步\n\n【移除】\n- 移除卡片上那层半透明渐变遮罩：改用折射材质后不再靠它撑亮度\n- 移除卡片跟着滚动实时采样背景的做法，改为一次烘好静态背景快照，从根上消除「一滑动就变透明」\n- 移除界面说明里「毛玻璃」的旧说法（现在没有任何模糊效果，是折射）",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
