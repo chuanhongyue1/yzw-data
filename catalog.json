@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":163,
+    "dataVersion":164,
     "categories":  [
                        {
                            "id":  "office",
@@ -1583,12 +1583,10 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.3.40",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.40/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":  [
-                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
-                           ],
-    "appReleaseNotes":  "v1.3.40 更新说明\n\n【移除】\n- 移除卡片上的液态玻璃折射材质（该材质在部分机型上会明显掉帧）\n\n【更新】\n- 卡片改回透明玻璃：半透明渐变 + 一圈描边 + 高光 + 柔和投影；刻意不做背景模糊，所以怎么滑动都不会突然变成全透明，老机型也更省电\n- 下载进度条不再一格一格地跳：进度会平滑地追上真实数值，还在下载时有一条流动的高光，暂停就停下\n- 下载中心不再每秒重建几十次界面，边下载边滑动更跟手\n- 打开软件详情页时，图标会轻轻弹一下进场",
+    "appLatestVersion":"1.3.41",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.41/app-arm64-v8a-release.apk",
+    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+    "appReleaseNotes":"v1.3.41 更新说明\n\n【新增】\n- root 模块类软件（分类名带 root模块 / Magisk / 面具）的详情页现在有两个下载按钮：「下载后自动解压」和「只下载（原样保存，自己去面具刷）」\n- 「只下载」下完不解压、不进安装流程，原样落在下载目录，点提示里的「打开」交给面具从本地刷 —— 模块包里常带 .sh，解压反而会打乱结构、还装不上\n\n【修复】\n- 下载中心里点开 root 模块的文件，也不会再偷偷自动解压了（这个标记跟着任务走）",
     "installedVersions":  {
 
                           },
