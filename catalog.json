@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":164,
+    "dataVersion":165,
     "categories":  [
                        {
                            "id":  "office",
@@ -701,15 +701,15 @@
                          "star":  5,
                          "versions":  [
                                           {
-                                              "version":  "5.48",
+                                              "version":  "5.49",
                                               "downloadUrl":  "https://gitee.com/dfsdfs1/zidongdianjiqi/releases/download/latest/qingdian.apk",
-                                              "releaseNotes":  "修复： · 下载更新包失败后会一直拿同一个坏包重试，卡在同一个错误上；现在下完先校验，不对就丢掉重新下。 · 「安装包不完整」「安装失败」的弹窗里原本只能「用浏览器打开」，现在多一个「重新下载」。 新增： · 更新包下完做完整性校验（字节数 + SHA-256 指纹），被截断或被替换过的包会被拦下来重下。 · 缓存里已...",
+                                              "releaseNotes":  "修复： · 设置里切深浅色后只有设置页变色，退回主界面还是黑的、重启后才跟上，看着像没保存。现在切完所有界面一起变，重启也记得。 · 平板和横屏上卡片被拉成一整条又宽又扁的长条，现在宽度收到 480dp 居中；全屏模式下内容也收成中间一条列。",
                                               "fileType":  "apk",
                                               "altUrls":  [
                                                               "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/qingdian-5.44.apk"
                                                           ],
-                                              "fileSizeBytes":  874478,
-                                              "publishedAt":  "2026-10-17T12:08:22"
+                                              "fileSizeBytes":  875022,
+                                              "publishedAt":  "2026-10-18T19:38:21"
                                           }
                                       ],
                          "packageName":  "com.chuan.pocket.tool"
@@ -1585,8 +1585,10 @@
     "feedbackEmail":  "chuanhongyue959@gmail.com",
     "appLatestVersion":"1.3.41",
     "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.41/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
-    "appReleaseNotes":"v1.3.41 更新说明\n\n【新增】\n- root 模块类软件（分类名带 root模块 / Magisk / 面具）的详情页现在有两个下载按钮：「下载后自动解压」和「只下载（原样保存，自己去面具刷）」\n- 「只下载」下完不解压、不进安装流程，原样落在下载目录，点提示里的「打开」交给面具从本地刷 —— 模块包里常带 .sh，解压反而会打乱结构、还装不上\n\n【修复】\n- 下载中心里点开 root 模块的文件，也不会再偷偷自动解压了（这个标记跟着任务走）",
+    "appDownloadMirrors":  [
+                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+                           ],
+    "appReleaseNotes":  "v1.3.41 更新说明\n\n【新增】\n- root 模块类软件（分类名带 root模块 / Magisk / 面具）的详情页现在有两个下载按钮：「下载后自动解压」和「只下载（原样保存，自己去面具刷）」\n- 「只下载」下完不解压、不进安装流程，原样落在下载目录，点提示里的「打开」交给面具从本地刷 —— 模块包里常带 .sh，解压反而会打乱结构、还装不上\n\n【修复】\n- 下载中心里点开 root 模块的文件，也不会再偷偷自动解压了（这个标记跟着任务走）",
     "installedVersions":  {
 
                           },
