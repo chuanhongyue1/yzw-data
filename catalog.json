@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":168,
+    "dataVersion":169,
     "categories":  [
                        {
                            "id":  "office",
@@ -707,15 +707,15 @@
                          "star":  5,
                          "versions":  [
                                           {
-                                              "version":  "5.50",
+                                              "version":  "5.53",
                                               "downloadUrl":  "https://gitee.com/dfsdfs1/zidongdianjiqi/releases/download/latest/qingdian.apk",
-                                              "releaseNotes":  "修复： · 在设置里切一次深浅色，退回上一级再点进来，弹窗会突然被拉成整屏（平板和横屏最明显）；现在切完保持原样。 新增： · 脚本、动作、权限、设置、关于这些页面改成独立整页显示，不再是一张浮在上一级界面上的卡片。 · 每个页面左上角加了返回箭头，标题挪到正中。 · 检查到新版本时直接进更新页；点「立即更新」后下载进...",
+                                              "releaseNotes":  "修复： · 二级页底下那层压得太黑了，现在只压两成半。 · 二级页不再透出上一级那张卡片：盖上来的时候上一级先收起来，返回的时候再显示。",
                                               "fileType":  "apk",
                                               "altUrls":  [
                                                               "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/qingdian-5.44.apk"
                                                           ],
-                                              "fileSizeBytes":  876834,
-                                              "publishedAt":  "2026-10-18T20:08:22"
+                                              "fileSizeBytes":  877210,
+                                              "publishedAt":  "2026-10-18T20:38:22"
                                           }
                                       ],
                          "packageName":  "com.chuan.pocket.tool"
@@ -1591,8 +1591,10 @@
     "feedbackEmail":  "chuanhongyue959@gmail.com",
     "appLatestVersion":"1.3.43",
     "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.43/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
-    "appReleaseNotes":"v1.3.43 更新说明\n\n【新增】\n- 网页条目：编辑软件时填「网页地址（选填）」，这张卡就变成网页入口——卡片图标变成一个「打开」，详情页按钮变成「前往网页」，点了用系统浏览器打开，不下载任何东西\n- 目录新增「浏览器」分类\n- 界面默认跑在手机屏幕的最高刷新率上（120/144Hz 的屏不再锁 60Hz）；跑不动的机器会自动降到 60Hz 并记住这个档\n\n【修复】\n- 手动点「检查更新」时不会再弹出两个更新窗口\n- 在下载窗口点「后台下载」后任务不跑：窗口关掉也照样开始下载，测速、换源这些照旧\n- 卡片滑动时会先往反方向动一小段：入场位移去掉了过冲回弹，被手势划走时的按压动效改成一路上归位\n- 拖动横幅时掉帧、下面的指示器追不上手指：现在只有指示器自己在重画",
+    "appDownloadMirrors":  [
+                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+                           ],
+    "appReleaseNotes":  "v1.3.43 更新说明\n\n【新增】\n- 网页条目：编辑软件时填「网页地址（选填）」，这张卡就变成网页入口——卡片图标变成一个「打开」，详情页按钮变成「前往网页」，点了用系统浏览器打开，不下载任何东西\n- 目录新增「浏览器」分类\n- 界面默认跑在手机屏幕的最高刷新率上（120/144Hz 的屏不再锁 60Hz）；跑不动的机器会自动降到 60Hz 并记住这个档\n\n【修复】\n- 手动点「检查更新」时不会再弹出两个更新窗口\n- 在下载窗口点「后台下载」后任务不跑：窗口关掉也照样开始下载，测速、换源这些照旧\n- 卡片滑动时会先往反方向动一小段：入场位移去掉了过冲回弹，被手势划走时的按压动效改成一路上归位\n- 拖动横幅时掉帧、下面的指示器追不上手指：现在只有指示器自己在重画",
     "installedVersions":  {
 
                           },
