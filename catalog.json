@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":167,
+    "dataVersion":168,
     "categories":  [
                        {
                            "id":  "office",
@@ -1589,12 +1589,10 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.3.42",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.42/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":  [
-                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
-                           ],
-    "appReleaseNotes":  "v1.3.42 更新说明\n\n【界面】\n- 全部应用：分类栏和列表交界处改成渐隐，卡片滑到分类栏底下不再被一条直线切断\n- 公告轮播换了新底：深一点的渐变 + 右下角几道广播弧线 + 左上柔光，亮/暗主题下白字都清楚（去掉了原来那个大喇叭 emoji，各家字体渲染差别太大）\n- 名言切换改成「一道线从左往右扫过」：线过之处旧字变新字，不再先擦掉再写\n- 详情页图标进场时轻轻弹一下\n\n【修复】\n- 首页搜索和「全部应用」筛选时列表排列会卡一下：现在同一张卡片会被复用、不重建，动画走到一半改道也不跳了（实测瞬移从 273px 降到 1px 上下）\n- 卡片平移时不再每帧重画渐变、描边和投影\n- 下载进度条换成带流动高光的版本；进度更新从「每收一块就刷新」节流到 90ms，下载时不再整屏高频重建\n- 下载中心会自动清掉「文件已经被删掉」的已完成任务",
+    "appLatestVersion":"1.3.43",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.43/app-arm64-v8a-release.apk",
+    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+    "appReleaseNotes":"v1.3.43 更新说明\n\n【新增】\n- 网页条目：编辑软件时填「网页地址（选填）」，这张卡就变成网页入口——卡片图标变成一个「打开」，详情页按钮变成「前往网页」，点了用系统浏览器打开，不下载任何东西\n- 目录新增「浏览器」分类\n- 界面默认跑在手机屏幕的最高刷新率上（120/144Hz 的屏不再锁 60Hz）；跑不动的机器会自动降到 60Hz 并记住这个档\n\n【修复】\n- 手动点「检查更新」时不会再弹出两个更新窗口\n- 在下载窗口点「后台下载」后任务不跑：窗口关掉也照样开始下载，测速、换源这些照旧\n- 卡片滑动时会先往反方向动一小段：入场位移去掉了过冲回弹，被手势划走时的按压动效改成一路上归位\n- 拖动横幅时掉帧、下面的指示器追不上手指：现在只有指示器自己在重画",
     "installedVersions":  {
 
                           },
