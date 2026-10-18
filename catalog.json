@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "appName": "砚中雪",
-  "dataVersion":171,
+  "dataVersion":172,
   "categories": [
     {
       "id": "office",
@@ -1692,12 +1692,10 @@
   ],
   "appReleases": [],
   "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.3.43",
-  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.43/app-arm64-v8a-release.apk",
-  "appDownloadMirrors": [
-    "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
-  ],
-  "appReleaseNotes": "v1.3.43 更新说明\n\n【新增】\n- 网页条目：编辑软件时填「网页地址（选填）」，这张卡就变成网页入口——卡片图标变成一个「打开」，详情页按钮变成「前往网页」，点了用系统浏览器打开，不下载任何东西\n- 目录新增「浏览器」分类\n- 界面默认跑在手机屏幕的最高刷新率上（120/144Hz 的屏不再锁 60Hz）；跑不动的机器会自动降到 60Hz 并记住这个档\n\n【修复】\n- 手动点「检查更新」时不会再弹出两个更新窗口\n- 在下载窗口点「后台下载」后任务不跑：窗口关掉也照样开始下载，测速、换源这些照旧\n- 卡片滑动时会先往反方向动一小段：入场位移去掉了过冲回弹，被手势划走时的按压动效改成一路上归位\n- 拖动横幅时掉帧、下面的指示器追不上手指：现在只有指示器自己在重画",
+  "appLatestVersion":"1.3.44",
+  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.44/app-arm64-v8a-release.apk",
+  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+  "appReleaseNotes":"v1.3.44 更新说明\n\n【新增】\n- 液态玻璃：卡片边缘像真玻璃一样折射它背后的画面，滚动时玻璃里的背景也跟着动，不再只是一层半透明色块。\n- 设置 → 界面 → 液态玻璃：新增开关。默认打开；老机型卡顿、发烫可以关掉，会退回原来的半透明卡片。\n\n【其他】\n- 着色器不可用（非 Impeller 渲染）时自动回退，不会白屏或变透明。",
   "installedVersions": {},
   "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
