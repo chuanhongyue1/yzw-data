@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":165,
+    "dataVersion":166,
     "categories":  [
                        {
                            "id":  "office",
@@ -1583,12 +1583,10 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.3.41",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.41/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":  [
-                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
-                           ],
-    "appReleaseNotes":  "v1.3.41 更新说明\n\n【新增】\n- root 模块类软件（分类名带 root模块 / Magisk / 面具）的详情页现在有两个下载按钮：「下载后自动解压」和「只下载（原样保存，自己去面具刷）」\n- 「只下载」下完不解压、不进安装流程，原样落在下载目录，点提示里的「打开」交给面具从本地刷 —— 模块包里常带 .sh，解压反而会打乱结构、还装不上\n\n【修复】\n- 下载中心里点开 root 模块的文件，也不会再偷偷自动解压了（这个标记跟着任务走）",
+    "appLatestVersion":"1.3.42",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.42/app-arm64-v8a-release.apk",
+    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+    "appReleaseNotes":"v1.3.42 更新说明\n\n【界面】\n- 全部应用：分类栏和列表交界处改成渐隐，卡片滑到分类栏底下不再被一条直线切断\n- 公告轮播换了新底：深一点的渐变 + 右下角几道广播弧线 + 左上柔光，亮/暗主题下白字都清楚（去掉了原来那个大喇叭 emoji，各家字体渲染差别太大）\n- 名言切换改成「一道线从左往右扫过」：线过之处旧字变新字，不再先擦掉再写\n- 详情页图标进场时轻轻弹一下\n\n【修复】\n- 首页搜索和「全部应用」筛选时列表排列会卡一下：现在同一张卡片会被复用、不重建，动画走到一半改道也不跳了（实测瞬移从 273px 降到 1px 上下）\n- 卡片平移时不再每帧重画渐变、描边和投影\n- 下载进度条换成带流动高光的版本；进度更新从「每收一块就刷新」节流到 90ms，下载时不再整屏高频重建\n- 下载中心会自动清掉「文件已经被删掉」的已完成任务",
     "installedVersions":  {
 
                           },
