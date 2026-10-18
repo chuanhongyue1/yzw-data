@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "appName": "砚中雪",
-  "dataVersion":177,
+  "dataVersion":178,
   "categories": [
     {
       "id": "office",
@@ -1873,10 +1873,10 @@
   ],
   "appReleases": [],
   "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.3.48",
-  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.48/app-arm64-v8a-release.apk",
+  "appLatestVersion":"1.3.49",
+  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.49/app-arm64-v8a-release.apk",
   "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
-  "appReleaseNotes":"v1.3.48 更新说明\n\n【优化】\n- 底部导航栏改回轻微背景模糊，透出一点背景，悬浮感更好。\n\n【修复】\n- 液态玻璃默认改为关闭（之前更新后被误开了）。\n- 修复代理内核重启后，下载仍命中旧节点、速度变慢的问题。",
+  "appReleaseNotes":"# v1.3.49 更新说明\n\n【优化】液态玻璃重做折射：改用参考实现（Kyant0/AndroidLiquidGlass）的圆角 SDF 梯度 + 向内采样，开启后边缘会真正「弯折」背后的画面，并叠加轻微磨砂模糊做出厚玻璃质感（此前折射几乎看不出）。\n【说明】液态玻璃默认仍为关闭，可在「设置 → 界面」里打开。",
   "installedVersions": {},
   "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
