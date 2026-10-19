@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":186,
+ "dataVersion":187,
  "categories": [
   {
    "id": "office",
@@ -1961,10 +1961,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.56",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.56/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.57",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.57/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.3.56 更新说明\r\n\r\n【优化】\r\n- 全部应用的分类改成可折叠的板块：板块标题就是大类名，点开才展开里面的小类和软件，一次只看一个板块。\r\n- 展开后的小类做成整行列表（缩进、淡底、选中有勾），和大类的板块卡区分开，不再和上面挤在一起。\r\n- 分类区和软件列表上下交界都做了渐淡，滚动时不再是一条硬边。\r\n- 搜索框右边加了视图切换按钮，可以随时切回原来的平铺网格。",
+ "appReleaseNotes":"v1.3.57 更新说明\r\n\r\n【修复】\r\n- 窄屏手机选单列、或系统字号调大时，分类板块里的软件行会挤出卡片（文字折行顶出去），现在只显示一行、超出用省略号，行高也会跟着字号一起长。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
