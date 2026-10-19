@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":185,
+ "dataVersion":186,
  "categories": [
   {
    "id": "office",
@@ -1961,12 +1961,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.55",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.55/app-arm64-v8a-release.apk",
- "appDownloadMirrors": [
-  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
- ],
- "appReleaseNotes": "v1.3.55 更新说明\n\n【优化】分类改成层级结构：大类里面套小类\n- 影音 下面分 动漫 / 音乐 / 视频 / 阅读 / 社区\n- 系统工具 下面分 代理 / 虚拟手机\n- 首页分类栏：选中大类后，下面再出一行小类方便快速收窄\n\n【新增】管理页支持层级分类\n- 分类页可添加子分类、调整大类和子类的顺序\n- 软件列表可一键改到任意大类或小类",
+ "appLatestVersion":"1.3.56",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.56/app-arm64-v8a-release.apk",
+ "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+ "appReleaseNotes":"v1.3.56 更新说明\r\n\r\n【优化】\r\n- 全部应用的分类改成可折叠的板块：板块标题就是大类名，点开才展开里面的小类和软件，一次只看一个板块。\r\n- 展开后的小类做成整行列表（缩进、淡底、选中有勾），和大类的板块卡区分开，不再和上面挤在一起。\r\n- 分类区和软件列表上下交界都做了渐淡，滚动时不再是一条硬边。\r\n- 搜索框右边加了视图切换按钮，可以随时切回原来的平铺网格。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
