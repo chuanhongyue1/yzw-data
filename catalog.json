@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":187,
+ "dataVersion":188,
  "categories": [
   {
    "id": "office",
@@ -1961,10 +1961,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.57",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.57/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.58",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.58/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.3.57 更新说明\r\n\r\n【修复】\r\n- 窄屏手机选单列、或系统字号调大时，分类板块里的软件行会挤出卡片（文字折行顶出去），现在只显示一行、超出用省略号，行高也会跟着字号一起长。",
+ "appReleaseNotes":"# v1.3.58 更新说明\n\n## 新增\n\n- 分类板块收起时直接露出 3 个应用，超出的显示「更多 N 个」，点进去是分类板块页，可以看小分类和全部软件。\n- 分类板块页支持按小分类筛选。\n\n## 优化\n\n- 「全部」改为进入全部展示（平铺网格），分类板块和全部展示一键切换。\n- 底部导航栏改成毛玻璃背景。\n- 板块与预览列表的进场动画更连贯，长列表不再占用太多空间。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
