@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "appName": "砚中雪",
-  "dataVersion":181,
+  "dataVersion":182,
   "categories": [
     {
       "id": "office",
@@ -1873,10 +1873,10 @@
   ],
   "appReleases": [],
   "feedbackEmail": "chuanhongyue959@gmail.com",
-  "appLatestVersion":"1.3.52",
-  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.52/app-arm64-v8a-release.apk",
+  "appLatestVersion":"1.3.53",
+  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.53/app-arm64-v8a-release.apk",
   "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
-  "appReleaseNotes":"v1.3.52 更新说明\n\n【优化】\n- root 模块下载按文件类型区分：APK 只留一个「下载」并注明是安装包；zip 面具模块只留「只下载」，确保压缩包不被解压。",
+  "appReleaseNotes":"v1.3.53 更新说明\n\n【优化】\n- 取消液态玻璃，卡片和底部导航栏改回透明玻璃。\n- 修复界面卡顿、掉帧问题。",
   "installedVersions": {},
   "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
