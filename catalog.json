@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":191,
+ "dataVersion":192,
  "categories": [
   {
    "id": "office",
@@ -1961,10 +1961,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.61",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.61/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.0",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.0/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.3.61 更新说明\n\n【新增】强制更新\n- 线上把某个版本标成「必须更新」之后，低于它的旧版本打开就会弹出提示，\n  这个提示不能关掉、不能跳过，下载弹窗里也不再提供「后台下载」。\n- 没标成必须更新的版本，还是原来的「稍后 / 立即更新」，可以照常延后。\n\n【修复】分类栏和列表之间那条分界线\n- 分类胶囊的投影改得很淡，暗色主题下不会再在胶囊下面叠出一条更暗的横带。\n\n【新增】root 模块的 zip 有两个按钮\n- 「下载并解压」：下完直接解压到下载目录里的同名文件夹，可以一键打开文件夹。\n- 「只下载 zip」：原样保存压缩包，拿去面具里刷。\n- 解压失败也不会丢文件，压缩包照旧留着。\n\n【修复】行列切换回到搜索栏\n- 单列 / 两列 / 三列的按钮回到搜索框右边，切到「全部展示」时才出现，\n  分类列表里不会再多一个多余的图标。",
+ "appReleaseNotes":"# v1.4.0 更新说明\n\n## 修复\n- 单列 / 两列 / 三列排列表按钮回到搜索栏右边，一直都能点到，不再被别的按钮顶掉。\n- 点大类后，小分类重新在它下面展开一排；再点一次同一大类就收起。\n- 去掉分类栏和软件列表之间那个「展示模式」切换按钮，之前它会冒出来盖住排列表按钮。\n\n## 优化\n- 分类栏常驻在上方：一排大类，选中的大类下面跟一排小分类，软件列表就是平铺的网格，不再需要来回切换。\n- 系统字号调大时，两列 / 三列的卡片跟着变高，文字不再被截断。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
