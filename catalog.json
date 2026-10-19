@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":188,
+ "dataVersion":189,
  "categories": [
   {
    "id": "office",
@@ -1961,10 +1961,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.3.58",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.58/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.3.59",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.59/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"# v1.3.58 更新说明\n\n## 新增\n\n- 分类板块收起时直接露出 3 个应用，超出的显示「更多 N 个」，点进去是分类板块页，可以看小分类和全部软件。\n- 分类板块页支持按小分类筛选。\n\n## 优化\n\n- 「全部」改为进入全部展示（平铺网格），分类板块和全部展示一键切换。\n- 底部导航栏改成毛玻璃背景。\n- 板块与预览列表的进场动画更连贯，长列表不再占用太多空间。",
+ "appReleaseNotes":"# v1.3.59 更新说明\n\n【优化】\n- 全部应用改成「顶部大分类 + 下面小分类」，点大分类后小分类以长圆形标签排在下方，应用一行一个竖着排列\n- 分类栏右缘做了渐隐过渡，列表顶部与底部与底栏交界处渐隐\n- 小分类再点一次即可取消筛选\n- 分类视图下不再显示列数按钮（竖排列表用不到）",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
