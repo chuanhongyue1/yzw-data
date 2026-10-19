@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":184,
+ "dataVersion":185,
  "categories": [
   {
    "id": "office",
@@ -102,24 +102,31 @@
    "parentId": ""
   },
   {
+   "id": "1792414885259",
+   "name": "搞机类",
+   "icon": "🧰",
+   "order": 7,
+   "parentId": ""
+  },
+  {
    "id": "1791684209830",
    "name": "shizuku类",
    "icon": "🔧",
-   "order": 7,
-   "parentId": ""
+   "order": 0,
+   "parentId": "1792414885259"
   },
   {
    "id": "1792209629300",
    "name": "root模块",
    "icon": "🧩",
-   "order": 8,
-   "parentId": ""
+   "order": 1,
+   "parentId": "1792414885259"
   },
   {
    "id": "browser",
    "name": "浏览器",
    "icon": "🌐",
-   "order": 9,
+   "order": 8,
    "parentId": ""
   }
  ],
@@ -1956,8 +1963,10 @@
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.3.55",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.3.55/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.3.55 更新说明\n\n【优化】分类改成层级结构：大类里面套小类\n- 影音 下面分 动漫 / 音乐 / 视频 / 阅读 / 社区\n- 系统工具 下面分 代理 / 虚拟手机\n- 首页分类栏：选中大类后，下面再出一行小类方便快速收窄\n\n【新增】管理页支持层级分类\n- 分类页可添加子分类、调整大类和子类的顺序\n- 软件列表可一键改到任意大类或小类",
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
+ "appReleaseNotes": "v1.3.55 更新说明\n\n【优化】分类改成层级结构：大类里面套小类\n- 影音 下面分 动漫 / 音乐 / 视频 / 阅读 / 社区\n- 系统工具 下面分 代理 / 虚拟手机\n- 首页分类栏：选中大类后，下面再出一行小类方便快速收窄\n\n【新增】管理页支持层级分类\n- 分类页可添加子分类、调整大类和子类的顺序\n- 软件列表可一键改到任意大类或小类",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
