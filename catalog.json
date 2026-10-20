@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":196,
+    "dataVersion":197,
     "categories":  [
                        {
                            "id":  "office",
@@ -787,15 +787,15 @@
                          "star":  5,
                          "versions":  [
                                           {
-                                              "version":  "5.54",
+                                              "version":  "5.56",
                                               "downloadUrl":  "https://gitee.com/dfsdfs1/zidongdianjiqi/releases/download/latest/qingdian.apk",
-                                              "releaseNotes":  "新增： · 悬浮窗上多了一个清除键，一下删掉所有点击点。 修复： · 删掉一个点以后，屏幕上偶尔还会在原地闪出黄色圆点。 · 每次打开悬浮窗都是空的，不再把上一次的点自动读回来（已经存进「脚本」的配置不受影响）。 · 在最近任务里把软件划掉之后，悬浮窗还留在屏幕上不走，当时要是正在自动点击，机子会像卡死一样。现在划掉就...",
+                                              "releaseNotes":  "优化： · 悬浮窗拖到边上松手，回弹恢复成弹簧的手感，卡顿一并去掉了。",
                                               "fileType":  "apk",
                                               "altUrls":  [
                                                               "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/qingdian-5.44.apk"
                                                           ],
-                                              "fileSizeBytes":  878654,
-                                              "publishedAt":  "2026-10-20T21:38:22"
+                                              "fileSizeBytes":  879570,
+                                              "publishedAt":  "2026-10-20T22:08:21"
                                           }
                                       ],
                          "packageName":  "com.chuan.pocket.tool"
