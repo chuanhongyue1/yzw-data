@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":197,
+    "dataVersion":198,
     "categories":  [
                        {
                            "id":  "office",
@@ -787,15 +787,15 @@
                          "star":  5,
                          "versions":  [
                                           {
-                                              "version":  "5.56",
+                                              "version":  "5.58",
                                               "downloadUrl":  "https://gitee.com/dfsdfs1/zidongdianjiqi/releases/download/latest/qingdian.apk",
-                                              "releaseNotes":  "优化： · 悬浮窗拖到边上松手，回弹恢复成弹簧的手感，卡顿一并去掉了。",
+                                              "releaseNotes":  "修复： · 首页圆形按钮里的三角形没在正中，偏上、也偏右了一点。 · 悬浮窗十个按钮的图标都贴着按钮上沿，现在居中。 · 主界面「循环 无限 间隔 30 ms」那行顶在右边，改回靠左。 新增： · 权限页加了「Root」，点一下会弹超级用户的授权窗口。",
                                               "fileType":  "apk",
                                               "altUrls":  [
                                                               "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/qingdian-5.44.apk"
                                                           ],
-                                              "fileSizeBytes":  879570,
-                                              "publishedAt":  "2026-10-20T22:08:21"
+                                              "fileSizeBytes":  880950,
+                                              "publishedAt":  "2026-10-21T07:46:28"
                                           }
                                       ],
                          "packageName":  "com.chuan.pocket.tool"
