@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":194,
+ "dataVersion":195,
  "categories": [
   {
    "id": "office",
@@ -2172,10 +2172,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.4.2",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.2/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.3",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.3/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"# v1.4.2 更新说明\n\n【新增】\n- 「光遇框架.zip」直接做成游戏分类里的软件详情页，下载后自动解压到「下载」里的同名文件夹，进文件夹自取需要的框架。\n\n【优化】\n- 普通分类里的压缩包统一显示「下载并解压」，并写明解压到哪个文件夹。",
+ "appReleaseNotes":"v1.4.3 更新说明\n\n【新增】\n- 详情页下方新增「附件」板块：软件带说明文档之类的附件时，会写明是什么类型的文件、有多大，要哪个自己点「下载」。\n\n【修复】\n- 修从首页点搜索时卡一下的问题。\n- 修全部应用里往下翻到很后面的软件、再滑回来时滑动分成两段的问题。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
