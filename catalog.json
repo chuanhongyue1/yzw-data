@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":212,
+ "dataVersion":213,
  "categories": [
   {
    "id": "office",
@@ -2241,6 +2241,33 @@
    "officialSites": [
     "https://github.com/chen08209/FlClash"
    ]
+  },
+  {
+   "id": "1792582005843",
+   "name": "Milk Code",
+   "categoryId": "dev",
+   "description": "手机上跑得动的 AI 编程环境：自带 Python、Node、curl，还有 frida-server 和 jadx 的 MCP，模型能读项目、敲命令、看日志。改几行代码或者抓个日志，不用特意开电脑。",
+   "icon": "data:image/png;base64,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",
+   "packageName": "com.milkcode",
+   "officialSite": "https://t.me/MilkCodeAI",
+   "recommended": false,
+   "pinned": false,
+   "star": 0,
+   "screenshots": [],
+   "versions": [
+    {
+     "version": "1.0.4",
+     "downloadUrl": "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/milkc-1.0.4.apk.p01",
+     "altUrls": [
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/milkc-1.0.4.apk.p02",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/milkc-1.0.4.apk.p03",
+      "https://github.com/chuanhongyue1/yzw-data/releases/download/apps-2026-10/milkc-1.0.4.apk.p04"
+     ],
+     "releaseNotes": "分 4 卷，每卷 72 MB，四卷同时下，下完自动按顺序拼好安装。",
+     "fileSizeBytes": 302399048,
+     "fileType": "apk-parts"
+    }
+   ]
   }
  ],
  "announcements": [
@@ -2261,10 +2288,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.4.14",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.14/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.15",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.15/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.4.14 更新说明\n\n【优化】\n- 内置的订阅链接换了一套更隐蔽的保存方式：安装包里看不到明文，从外面拆开也拼不成一条完整的地址。",
+ "appReleaseNotes":"v1.4.15 更新说明\n\n【新增】\n- Milk Code：手机上跑得动的 AI 编程环境，自带 Python、Node、curl，还有 frida-server 和 jadx，读代码、敲命令、看日志都不用开电脑。安装包切成四卷同时下，比单线下得快。\n\n【优化】\n- 「关于」页重新写过：只留本版更新和基础用法——怎么找软件、怎么下载安装、装不上怎么办、想换个样子去哪儿调。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
