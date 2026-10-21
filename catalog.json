@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":210,
+ "dataVersion":211,
  "categories": [
   {
    "id": "office",
@@ -2261,10 +2261,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.4.12",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.12/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.13",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.13/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.4.12 更新说明\n\n【新增】\n- 上传文件的时候可以顺带加几张介绍图，传上去以后详情页里直接显示。\n- 上传可以直接从手机里已装的软件里挑，安装包自动提出来，包名、版本、图标一次填好。\n\n【优化】\n- 上传过程一步一步列出来：传介绍图、传文件、拉线上目录、提交目录，做完的打勾，正在做的那一步在转，不用盯着一个圈猜。",
+ "appReleaseNotes":"v1.4.13 更新说明\r\n\r\n【修复】\r\n- 上传时不再一声不响地卡着：先直连，连不上才启用内置代理，一分半钟没有任何进展就直接告诉你失败在哪。\r\n- 上传出错会当场弹提示，出问题的那一步也会标红，不会再把错误藏在页面最底下。\r\n\r\n【优化】\r\n- 上传时能看到百分比和当前速度。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
