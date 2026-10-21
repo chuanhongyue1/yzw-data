@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":206,
+ "dataVersion":207,
  "categories": [
   {
    "id": "office",
@@ -2261,10 +2261,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.4.8",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.8/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.9",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.9/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.4.8 更新说明\n\n【新增】\n- 一个软件有两个官网的（比如 FlClash 的官网和 GitHub 仓库），详情页「其他」里会一行一个都列出来，点哪个开哪个。\n- 管理端编辑软件时，官网那一栏可以一行填一个网址。\n\n【优化】\n- 「关于」里的说明重写了一遍：去掉一堆技术细节，6 块压成 4 块，读着像人话，一屏能看完。",
+ "appReleaseNotes":"# v1.4.9 更新说明\n\n【新增】\n\n- 管理页新增「上传安装包」。在手机上选一个 APK，软件名、版本号、包名和图标会自动读出来并填好，改完点上传，文件和目录一起送到云端，过一分钟左右其他设备也能看到。以后加软件不用再开电脑。\n- 上传同一个包的更高版本时会认出来，直接给这个软件添一条新版本，不用重新建条目。\n\n【优化】\n\n- 关于页的说明重写了一遍，把原来堆在一起的几段话理顺了。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
