@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":213,
+ "dataVersion":214,
  "categories": [
   {
    "id": "office",
@@ -1003,7 +1003,8 @@
      "altUrls": []
     }
    ],
-   "packageName": "com.zhiliaoapp.musically"
+   "packageName": "com.zhiliaoapp.musically",
+   "officialSite": "https://www.tiktok.com/"
   },
   {
    "id": "1791860434969",
@@ -1068,7 +1069,8 @@
      "publishedAt": "2026-10-13T03:00:34"
     }
    ],
-   "packageName": "com.tencent.tim"
+   "packageName": "com.tencent.tim",
+   "officialSite": "https://tim.qq.com/"
   },
   {
    "id": "1791860434972",
@@ -1425,7 +1427,8 @@
      "fileType": "apk"
     }
    ],
-   "screenshots": []
+   "screenshots": [],
+   "officialSite": "https://www.vmos.cn/"
   },
   {
    "id": "1791975923873",
@@ -1467,7 +1470,8 @@
      "fileType": "apk"
     }
    ],
-   "screenshots": []
+   "screenshots": [],
+   "officialSite": "https://www.kugou.com/"
   },
   {
    "id": "1791976909326",
@@ -1569,7 +1573,7 @@
    "recommended": false,
    "pinned": false,
    "star": 0,
-   "officialSite": "",
+   "officialSite": "https://www.mygolbs.com/",
    "screenshots": [],
    "versions": [
     {
@@ -1591,7 +1595,7 @@
    "recommended": false,
    "pinned": false,
    "star": 0,
-   "officialSite": "",
+   "officialSite": "https://store.steampowered.com/",
    "screenshots": [],
    "versions": [
     {
@@ -1613,7 +1617,7 @@
    "recommended": false,
    "pinned": false,
    "star": 0,
-   "officialSite": "",
+   "officialSite": "https://github.com/zly2006/zhihu-plus-plus",
    "screenshots": [],
    "versions": [
     {
@@ -1787,7 +1791,8 @@
      "fileSizeBytes": 8793918,
      "fileType": "apk"
     }
-   ]
+   ],
+   "officialSite": "https://github.com/ReChronoRain/HyperCeiler"
   },
   {
    "id": "1792331719519",
@@ -1807,7 +1812,8 @@
      "fileSizeBytes": 3382648,
      "fileType": "zip"
     }
-   ]
+   ],
+   "officialSite": "https://github.com/LSPosed/LSPosed"
   },
   {
    "id": "1792331719520",
@@ -1910,7 +1916,8 @@
      "fileSizeBytes": 12401545,
      "fileType": "apk"
     }
-   ]
+   ],
+   "officialSite": "https://github.com/UJhhgtg/WeKit"
   },
   {
    "id": "1792331719525",
@@ -1993,7 +2000,8 @@
      "fileType": "apk",
      "fileSizeBytes": 177852038
     }
-   ]
+   ],
+   "officialSite": "https://www.123pan.com/"
   },
   {
    "id": "1792494127444",
@@ -2014,7 +2022,8 @@
      "fileType": "apk",
      "fileSizeBytes": 131519257
     }
-   ]
+   ],
+   "officialSite": "https://www.caiyunapp.com/"
   },
   {
    "id": "1792494127445",
@@ -2043,7 +2052,8 @@
       }
      ]
     }
-   ]
+   ],
+   "officialSite": "https://www.capcut.cn/"
   },
   {
    "id": "1792494127446",
@@ -2064,7 +2074,8 @@
      "fileSizeBytes": 72764418,
      "fileType": "apk"
     }
-   ]
+   ],
+   "officialSite": "https://www.daysmatter.com/"
   },
   {
    "id": "1792494127447",
@@ -2085,7 +2096,8 @@
      "fileSizeBytes": 144743656,
      "fileType": "apk"
     }
-   ]
+   ],
+   "officialSite": "https://www.duolingo.com/"
   },
   {
    "id": "1792494127448",
@@ -2106,7 +2118,8 @@
      "fileSizeBytes": 76921138,
      "fileType": "apk"
     }
-   ]
+   ],
+   "officialSite": "https://www.tipsoon.com/"
   },
   {
    "id": "1792494127449",
@@ -2127,7 +2140,8 @@
      "fileSizeBytes": 78196193,
      "fileType": "apk"
     }
-   ]
+   ],
+   "officialSite": "https://www.moji.com/"
   },
   {
    "id": "1792494127450",
@@ -2148,7 +2162,8 @@
      "fileSizeBytes": 270113467,
      "fileType": "apk"
     }
-   ]
+   ],
+   "officialSite": "https://www.hongguoduanju.com/"
   },
   {
    "id": "1792494127451",
@@ -2290,8 +2305,10 @@
  "feedbackEmail": "chuanhongyue959@gmail.com",
  "appLatestVersion":"1.4.15",
  "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.15/app-arm64-v8a-release.apk",
- "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.4.15 更新说明\n\n【新增】\n- Milk Code：手机上跑得动的 AI 编程环境，自带 Python、Node、curl，还有 frida-server 和 jadx，读代码、敲命令、看日志都不用开电脑。安装包切成四卷同时下，比单线下得快。\n\n【优化】\n- 「关于」页重新写过：只留本版更新和基础用法——怎么找软件、怎么下载安装、装不上怎么办、想换个样子去哪儿调。",
+ "appDownloadMirrors": [
+  "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
+ ],
+ "appReleaseNotes": "v1.4.15 更新说明\n\n【新增】\n- Milk Code：手机上跑得动的 AI 编程环境，自带 Python、Node、curl，还有 frida-server 和 jadx，读代码、敲命令、看日志都不用开电脑。安装包切成四卷同时下，比单线下得快。\n\n【优化】\n- 「关于」页重新写过：只留本版更新和基础用法——怎么找软件、怎么下载安装、装不上怎么办、想换个样子去哪儿调。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
