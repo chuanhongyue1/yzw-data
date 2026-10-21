@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":208,
+ "dataVersion":209,
  "categories": [
   {
    "id": "office",
@@ -2261,10 +2261,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.4.10",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.10/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.11",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.11/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"# v1.4.10 更新说明\n\n【新增】\n\n- 上传安装包不用再去申请、粘贴令牌了，软件里已经内置好，选完 APK 直接点上传即可。令牌在软件里存成加密后的碎片，看不到原文；想换成自己的令牌也可以，在同一个页面填进去、点「存下来」就行。\n- 管理页的上传里多了「本机改动同步」。管理页改过的软件名、简介、分类、图标都只在这台手机上，点「检查改了什么」能看清和线上差多少，确认以后再点一次就一起提交上去，不用逐个重传。\n\n【优化】\n\n- 提交目录时以线上那一份为底，别处新加的软件和分类会保留下来，不会被这台手机上较旧的一份覆盖掉。",
+ "appReleaseNotes":"# v1.4.11 更新说明\n\n【新增】\n- 软件库里除了安装包，现在也能放 sh 脚本、txt 说明、7z、iso 这一类文件。详情页会说明它是文件而不是安装包，下载后存在「下载」里，用对应的软件打开就行。\n\n【修复】\n- 这类文件以前下下来会被当成安装包去装，或者被存成 .bin 打不开。现在按原来的格式保存，后缀不会再变。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
