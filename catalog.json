@@ -1,7 +1,7 @@
 {
     "schema":  1,
     "appName":  "砚中雪",
-    "dataVersion":217,
+    "dataVersion":218,
     "categories":  [
                        {
                            "id":  "office",
@@ -2403,12 +2403,10 @@
 
                     ],
     "feedbackEmail":  "chuanhongyue959@gmail.com",
-    "appLatestVersion":"1.4.15",
-    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.15/app-arm64-v8a-release.apk",
-    "appDownloadMirrors":  [
-                               "https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"
-                           ],
-    "appReleaseNotes":  "v1.4.15 更新说明\n\n【新增】\n- Milk Code：手机上跑得动的 AI 编程环境，自带 Python、Node、curl，还有 frida-server 和 jadx，读代码、敲命令、看日志都不用开电脑。安装包切成四卷同时下，比单线下得快。\n\n【优化】\n- 「关于」页重新写过：只留本版更新和基础用法——怎么找软件、怎么下载安装、装不上怎么办、想换个样子去哪儿调。",
+    "appLatestVersion":"1.4.16",
+    "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.16/app-arm64-v8a-release.apk",
+    "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
+    "appReleaseNotes":"v1.4.16 更新说明\n\n【修复】\n- 内置代理起不来时不再直接报「内置代理没有启动」：会先把内核彻底停掉再重新拉起，最多重试三次。\n- 本机存的订阅地址失效时自动改用内置订阅；订阅都拉不到时用上次保存成功的配置顶上。\n- 只有重启内核也失败时才临时直连试一次，失败提示里会写清到底是订阅没拉下来还是内核起不来。\n\n【优化】\n- GitHub 的下载地址一律先走内置代理，不会再去试直连。",
     "installedVersions":  {
 
                           },
