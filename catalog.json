@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":207,
+ "dataVersion":208,
  "categories": [
   {
    "id": "office",
@@ -2261,10 +2261,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.4.9",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.9/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.10",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.10/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"# v1.4.9 更新说明\n\n【新增】\n\n- 管理页新增「上传安装包」。在手机上选一个 APK，软件名、版本号、包名和图标会自动读出来并填好，改完点上传，文件和目录一起送到云端，过一分钟左右其他设备也能看到。以后加软件不用再开电脑。\n- 上传同一个包的更高版本时会认出来，直接给这个软件添一条新版本，不用重新建条目。\n\n【优化】\n\n- 关于页的说明重写了一遍，把原来堆在一起的几段话理顺了。",
+ "appReleaseNotes":"# v1.4.10 更新说明\n\n【新增】\n\n- 上传安装包不用再去申请、粘贴令牌了，软件里已经内置好，选完 APK 直接点上传即可。令牌在软件里存成加密后的碎片，看不到原文；想换成自己的令牌也可以，在同一个页面填进去、点「存下来」就行。\n- 管理页的上传里多了「本机改动同步」。管理页改过的软件名、简介、分类、图标都只在这台手机上，点「检查改了什么」能看清和线上差多少，确认以后再点一次就一起提交上去，不用逐个重传。\n\n【优化】\n\n- 提交目录时以线上那一份为底，别处新加的软件和分类会保留下来，不会被这台手机上较旧的一份覆盖掉。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
