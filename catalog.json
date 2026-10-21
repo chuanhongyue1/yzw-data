@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":202,
+ "dataVersion":203,
  "categories": [
   {
    "id": "office",
@@ -2231,10 +2231,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.4.6",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.6/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.7",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.7/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.4.6 更新说明\n\n【修复】\n- 压缩包下载完成后没有自动解压、也没有自动安装的问题：以前这条收尾只在详情页还开着的时候才会执行，人一走开就整段跳过；现在不管你停在哪个页面，下完都会自动解压到「下载」里以这个包命名的文件夹，包里只有一个安装包的直接装上。\n- 连点两次下载会互相删掉对方的文件、下完提示「文件不完整」的问题：现在同一个文件只留一条任务，取消其中一条不会影响另一条。\n- 下载完成后核对文件体积，没下全的会明确告诉你重新下载，不会再当成成功。\n\n【新增】\n- 新增网页条目：星云创新。\n\n【优化】\n- 在下载中心点开压缩包任务，会直接安装解压出来的那个安装包。",
+ "appReleaseNotes":"v1.4.7 更新说明\n\n【优化】\n- 压缩包下载完，下载中心会直接标出「正在解压…」「正在安装…」，按钮变成「处理中…」，能看见它在干活。\n- 「下载并安装」的压缩包，装好之后压缩包和解压出来的文件一起清掉，不在「下载」里留东西。\n- 只有你特意标明要自己装的压缩包（里面文件比较多那种）才保留压缩包、单独建一间文件夹。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
