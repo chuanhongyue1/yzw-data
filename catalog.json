@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "appName": "砚中雪",
- "dataVersion":250,
+ "dataVersion":251,
  "categories": [
   {
    "id": "office",
@@ -2673,10 +2673,10 @@
  ],
  "appReleases": [],
  "feedbackEmail": "chuanhongyue959@gmail.com",
- "appLatestVersion":"1.4.26",
- "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.26/app-arm64-v8a-release.apk",
+ "appLatestVersion":"1.4.27",
+ "appDownloadUrl":"https://gitee.com/dfsdfs1/yxzapp/releases/download/v1.4.27/app-arm64-v8a-release.apk",
  "appDownloadMirrors":["https://chuanhongyue1.github.io/yzw-data/app-arm64-v8a-release.apk"],
- "appReleaseNotes":"v1.4.26 更新说明\n\n【修复】\n- 管理页「新添加」清不掉了：以前每次同步都会把整批软件重新算成新的，\n  手动标记过、下一轮同步又原样冒出来，来回重复提醒。现在同步进来的数据\n  自动算已看过，只有真正新上架的才会出现在「新添加」里。\n- 手动导入别人发的分享文件时仍不自动标记，那批东西还是留给你自己挑。\n\n【新增】\n- 软件列表里每条都有「新」角标，点一下就把这条标记为看过，不用进筛选页逐个处理。\n- 「新添加」页加了「重置」，手滑点了全部标记可以一键恢复，重新过一遍。",
+ "appReleaseNotes":"# v1.4.27\n\n## 同步拆成两个：新增 / 全部\n\n管理页软件标签顶部新增「从更新源同步」卡片，两个按钮：\n\n- **同步新增**（日常用这个）：只把本机没有的软件拉进来，本地已有的一条都不动。\n  你手机上改过的名字、图标、下载地址、置顶顺序全都保留。\n  线上删掉的东西这里也不会连带删掉 —— 删除得自己动手。\n- **同步全部**：整份用线上数据覆盖本机。点之前会弹窗说清后果，确认才执行。\n\n以前只有一个同步入口，行为其实是「整份覆盖」，本地改过的内容会被线上旧数据冲掉。\n下拉刷新现在固定走「同步新增」，随手一拉不会覆盖任何东西。\n\n## 顺手修的\n\n- 本地版本号跑到线上前面（导入过别人的整份分享数据就会这样）时，\n  以前会永远判定「已是最新」、线上后加的东西再也进不来。\n  现在会记一个标记，下一轮改用「有哪些 id 本地没有」来判断。\n- 「同步新增」跑完会告诉你实际进来了几个；没新的就说没新的，不空转。",
  "installedVersions": {},
  "catalogUrl":"https://chuanhongyue1.github.io/yzw-data/catalog.json"
 }
